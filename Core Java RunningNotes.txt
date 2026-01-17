@@ -1,0 +1,76 @@
+Selenium with Java:
+------------------
+Java:Programming Language
+
+How to Download and Install Java:
+--------------------------------25 
+cmd:java --version 
+
+Write Java Program:Editors
+Basic:NotePad ++ Edit+ 
+Advanced:EclipseIDE IntiliJIDE
+.java SourceCode/Program
+.class Excutable Code 
+
+Compile Java Program:Compilation
+Checking Errors: WhiteBox Testing
+.class ClassName
+Command:
+
+Execute Java Program:OutPut
+Analsis:
+
+Path Setting:
+
+Class:Fruit		Vehicle
+Object:Banana	
+				HelloWorld
+Syntax:class ClassName
+Ex:class _$ A12_233
+Ex:class HelloWorld
+
+WAJP to print "Hello World" message in OutPut
+WAJP to perform Addition on given any Two Numbers and Print output.
+Input:10,5 
+Process: + 
+OutPut[Actuval]:-10 15 
+Excepted:15
+
+Syntax: datatype VariableName=Value;
+		int num1=10;
+		int -66 89  -99.99
+		float
+
+Assignment-1:
+------------
+1.WAJP to print any 10 messages in OutPut.
+2.WAJP to perform Addition on given any Two Integer Numbers and Print output.
+3.WAJP to perform Substraction on given any Two Numbers and Print output.
+4.WAJP to perform Muliplication on given any Two Numbers and Print output.
+5.WAJP to perform Division on given any Two Numbers and Print output.
+
+WAJP to perform Addition on given any Two Point Values and Print output.
+
+234  -675	954.123  -67.456 
+
+Static Value:Pre-Defined[Developer] 
+BackEnd:
+Dynamic Value:User Defined[Customer/User]
+FrontEnd
+
+Scanner Class:
+-------------Pre-Define
+Package:util
+Class:Scanner
+Methods/Functions:nextInt() nextFloat()
+
+Method:
+Static:Direct or ClassName
+Non-Static:Object
+Syntax:ClassName ObjName = new ClassName();
+		Addition2Float add=new Addition2Float();
+		Scanner scan=new Scanner(System.in);
+		float num1=scan.nextFloat();
+		float num2=scan.nextFloat();
+
+WAJP to perform Addition on given any Two Point Values by using dynamic input and Print output.
