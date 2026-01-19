@@ -74,3 +74,42 @@ Syntax:ClassName ObjName = new ClassName();
 		float num2=scan.nextFloat();
 
 WAJP to perform Addition on given any Two Point Values by using dynamic input and Print output.
+======================
+19-01-2026
+EclipseIDE:
+----------
+.exe Download and Install
+2025-03
+2025-06
+2025-09
+2025-12
+2026-03
+
+Project:
+Package:Arrays String
+Class
+MainMethod
+Body 
+Compile and Excute 
+
+Red Yellow Green
+Error Warning
+
+Student Details:
+-------------100
+HTNO:Dynamic/Static
+CNAME:Static/Dynamic
+SNAME:Dynamic
+FEE:Static/Dynamic
+CADDRES:Static
+SADDRESS:Dynamic/Static
+
+Variables and DataTypes:
+-----------------------
+int num1=200;Bag  Cloths
+float b=10.5f; Water 
+
+Normal Variable:
+
+Container:To Store the Data.
+
