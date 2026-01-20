@@ -1,0 +1,23 @@
+Student Details Assignment:
+-------------100
+HTNO:Dynamic/Static:101 short
+CNAME:Static/Dynamic:String next() nextLine()
+SNAME:Dynamic:String
+FEE:Static/Dynamic:int or float 
+CADDRES:Static:String
+SADDRESS:Dynamic/Static:String
+Gender:M, F char 
+Result:true false
+
+nextByte()
+nextShort()
+nextInt()
+nextLong()
+nextFloat()
+nextDouble()
+next().charAt(0)
+nextBoolean()
+next()
+nextLine()
+
+
