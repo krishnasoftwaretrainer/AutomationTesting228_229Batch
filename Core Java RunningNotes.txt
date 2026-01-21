@@ -291,4 +291,71 @@ String:Collection of Characters.
 2.Non-Primitive:
 -----------
 Class Object Arrays String OOPS
+===============
+21-01-2026
+
+Java Tokens:
+-----------
+1.KeyWords/Pre-define/Library:
+52 class int float 
+
+2.Identifiers:
+-------------
+class Addition
+package arthametic
+int a=10;
+
+3.Literals:
+---------
+int a=10;Integer 
+float b=10.5f; 
+
+4.Constants:
+-----------
+float pi=3.14f;
+
+All Literals are Constants:False
+All Constants are Literals:True
+
+All Variables are Identifiers:True 
+All Identifiers are Variables:False
+
+Errors in Java:
+-------------
+Error Defect Bug Failure 
+
+1.CompileTime[Syntax Errors]:
+2.RunTime[Exceptions]:
+
+Comments in Java:
+----------------
+1.Excutable 
+2.
+Types:
+----
+1.Single-Line: //
+2.Multi-Line: /*   */
+3.Documentation: /**  */
+
+KFC:
+
+Document Writers:
+
+Type Conversion:
+---------------
+int  150
+int 150.33
+
+Small to Big 
+byte-short-char-int-long-float-double
+Implicit:[Widening][Automatic]
+
+byte 120; 1 
+short 120; 2
+short 150;
+byte 150;
+
+Big to Small 
+double-float-long-int-char-short-byte
+Explicit:[Narrowing][Manul]
 

@@ -1,9 +1,11 @@
 package variables_DatTypes;
 
+import java.util.Scanner;
+
 public class DataTypes_Memory {
 
 	public static void main(String[] args) {
-
+		Scanner sc=new Scanner(System.in);
 		//byte a=100; //1 byte memory
 		//byte a=-129;
 		//short a=100; //2 byte memory
@@ -27,6 +29,18 @@ public class DataTypes_Memory {
 		System.out.println(name);
 		//System.out.println("a:"+a);
 		//System.out.println("b:"+b);
+		
+		byte a=sc.nextByte();
+		short b=sc.nextShort();
+		int c=sc.nextInt();
+		long d=sc.nextLong();
+		float e=sc.nextFloat();
+		double f=sc.nextDouble();
+		char g=sc.next().charAt(0);
+		boolean h=sc.nextBoolean();
+		String i=sc.next();	//Rama Rao He is a Boy 
+		String j=sc.nextLine();//Rama Rao 
+		
 		
 	}
 
