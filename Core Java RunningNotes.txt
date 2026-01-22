@@ -358,4 +358,71 @@ byte 150;
 Big to Small 
 double-float-long-int-char-short-byte
 Explicit:[Narrowing][Manul]
+================
+22-01-2026
+
+Operators in Java:
+-----------------
+Symbol:+  <  & 
+Operations on Opernds 
+
+1.Arthametic Operators
+2.Relational Operators
+3.Logical Operators
+4.Assignment Operators
+5.Unary Operators
+6.Ternary Operators
+7.Bitwise Operators
+8.Shift Operators
+
+1.Arthametic Operators:
+---------------------
++ - * / %
+
+10/3=3
+10%3=1 
+
+3/10=0
+3%10=3
+
+Input:Integer or Float
+OutPut:Integer or Float
+
+Priority of Arthametic Operators:
+------------------------------
+High Priority:* / % 
+Low Priority:+ -
+
+BODMAS:
+
+2.Relational Operators:[Comparison]
+------------
+<	>	<=	>=	==	!=
+600>500:
+
+Input:Integer or Float
+OutPut:Boolean[true/false]
+
+> and >or=
+
+50>50:false	50>=50:true 
+			50>50 or 50=50
+			false or true 
+
+3.Logical Operators:
+-------------------
+AND OR NOT 
+
+Input:Boolean
+OutPut:Boolean
+
+Input1	Input2	AND		OR		NOT
+------------------------------------
+TRUE	TRUE	TRUE	TRUE	FALSE
+
+TRUE	FALSE	FALSE	TRUE
+
+FALSE	TRUE	FALSE	TRUE
+
+FALSE	FALSE	FALSE	FALSE	TRUE
 
