@@ -425,4 +425,159 @@ TRUE	FALSE	FALSE	TRUE
 FALSE	TRUE	FALSE	TRUE
 
 FALSE	FALSE	FALSE	FALSE	TRUE
+===================
+
+===============================================
+4.Assignment Operators:
+------------------
+=	==	equalsTo
+a=10
+a=b;
+c=a+b; 
+10=a 
+sname="KRISHNA";
+
+a==b true false 
+
++	-	*	/	%
++=	-=	*=	/=	%=	
+
+b=5;
+int a=b+10;
+a=15;
+
+a=5;
+a+=10;
+a=a+10;
+a=5+10;
+a=15;
+
+5.Unary Operators:
+----------------
++ -
+a=+10, b=-20;
+
+Increment:++  +1 a=10:a++;11
+Pre-Increment:++a: a=11 Print:11
+Post-Increment:b++:Print:10; +1; b=11
+
+Decrement:--  -1 b=10:b--;9
+Pre-Decrement:--c:-1 update:9 print:9 
+Post-Decrement:d--:print:10,-1;update:9
+
+6.Ternary Operators:
+--------------------
+Conditional Operators: : ? 
+
+Binary: 1:true 0:false
+Input:Integer
+Integer->Binary[Operations]
+Binary-->Integer
+OutPut:Integer
+ 
+7.Bitwise Operators:
+& | ^
+
+Input1	Input2	AND(&)	OR(|)	XOR(^)
+------------------------------------
+1		1		1		1		0
+
+1		0		0		1		1
+
+0		1		0		1		1
+
+0		0		0		0		0
+
+int a=10,b=12;
+Integer to Binary:LCM 
+
+8.Shift Operators:
+Left Shift:<<
+Right Shift:>>
+
+		0101=5
+		3210
+		
+		01010=10
+		43210
+		
+		000101
+		543210
+		
+		
+		00101=5
+		43210
+		
+		000101=5
+		543210
+		
+		0000101=5
+		6543210
+		=	==  equals
+
+=====================
+26-01-2026
+
+int a=20,b=10; 20LOC 3rd 7th  17  
+English[HUL] to Binary[MUL]:
+Transalation:Transalators
+Compilation:Compilers
+Excution:Compilers
+Binary to English
+30
+
+5hrs:
+Interpreters:Hard: 
+Compilers:Soft:
+JIT: 
+
+JDK JRE JVM 
+
+Compilation:javac jvm 
+Execution:java jvm 
+
+		
+Sequentional Flow:Line-by-Line or Step-by-Step		
+		
+
+Control Flow Statements in Java:
+-------------------------------
+Sequentional Flow:Step-by-Step/ Line-by-Line 
+Control Flow:Condition
+
+1.Conditional/Branching/Selection:
+if():simple-if, if-else, else-if or ladder-if, nested-if
+switch():break; else-if():Exit
+
+TBS:True:if(Condition)
+FBS:False:else 
+
+1.Simple-if():
+------------
+TBS null 
+
+Syntax:
+-----
+if(Condition) //true/false
+{
+TBS;
+}
+
+
+
+
+
+2.Looping/Iterative:
+for(), while(), do-while() and nested-loops()
+
+3.Jumping:break, continue and return
+
+Definations 
+Syntax:
+FlowCharts 
+Explanations 
+Example Program
+
+datatype variablename=value;
+int a==10;
 
