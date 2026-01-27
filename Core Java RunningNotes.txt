@@ -581,3 +581,81 @@ Example Program
 datatype variablename=value;
 int a==10;
 
+====================
+3.else-if() or ladder-if():
+----------
+Syntax:
+-----
+if(Condition-1)
+{
+Body; TBS;
+}
+else if(Condition-2)
+{
+Body; TBS;
+}
+else if(Condition-3)
+{
+Body; TBS;
+}
+else
+{
+Body; FBS;
+}
+
+4.Nested-if():
+---------
+Syntax:
+----
+if(condition-1) //Outer T T F 
+{
+if(Condition-2) //Inner T F
+{
+Body;TBS;
+}
+else //Inner 
+{
+Body;FBS;
+}
+else //Outer
+{
+Bod;FBS;
+}
+
+Switch Condition:
+----------------
+break 
+switch(Condition)  1
+{
+case:1 
+{
+Print(1); 1 Exit 
+break;
+}
+case:2
+{
+Print(2);
+}
+default:
+{
+FBS;
+}
+
+
+
+
+
+
+2.Looping/Iterative:
+for(), while(), do-while() and nested-loops()
+
+3.Jumping:break, continue and return
+
+Definations 
+Syntax:
+FlowCharts 
+Explanations 
+Example Program
+
+datatype variablename=value;
+int a==10;
