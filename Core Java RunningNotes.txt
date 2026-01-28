@@ -659,3 +659,65 @@ Example Program
 
 datatype variablename=value;
 int a==10;
+============
+28-01-2026
+---------
+Switch Condition:
+----------------
+break 
+switch(Condition)  1
+{
+case:1 
+{
+Print(1); 1 Exit 
+break;
+}
+case:2
+{
+Print(2);
+}
+default:
+{
+FBS;
+}
+
+2.Looping/Iterative:
+for(), while(), do-while() and nested-loops()
+
+Decrease th length of Code:
+
+Entry Control:
+for():
+Syntax:
+----
+for(InitialValue;Condition;Increment/Decrement)
+{
+Body;
+}
+
+for(int i=1;i<=10;i++) //1<=10... 11<=10
+{
+Body;
+}
+
+
+while():
+------
+Syntax:
+---
+InitialValue;
+while(condition)
+{
+Body;
+Increment/Decrement;
+}
+
+while(true)
+{
+Body;
+}
+
+
+Exit Control:do-while
+
+
