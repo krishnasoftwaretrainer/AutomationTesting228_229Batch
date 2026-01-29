@@ -720,4 +720,58 @@ Body;
 
 Exit Control:do-while
 
+===============
+2.Looping/Iterative:
+for(), while(), do-while() and nested-loops()
+
+Decrease th length of Code:
+
+Entry Control:
+for():
+Syntax:
+----
+for(InitialValue;Condition;Increment/Decrement)
+{
+Body;
+}
+
+for(int i=1;i<=10;i++) //1<=10... 11<=10
+{
+Body;
+}
+
+while():
+------
+Syntax:
+---
+InitialValue;
+while(condition)
+{
+Body;
+Increment/Decrement;
+}
+
+while(true)
+{
+Body;
+}
+
+Exit Control:do-while
+-----------
+Syntax:
+-----
+InitialValue;
+do
+{
+Body;
+Increment/Decrement;
+}while(Condition);
+
+nested loops:
+-----------
+Patterns:
+--------
+for() Outer/Rows:5
+{
+for() Inner/Columns:5
 

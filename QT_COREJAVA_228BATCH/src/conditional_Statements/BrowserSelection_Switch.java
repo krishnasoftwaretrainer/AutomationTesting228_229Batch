@@ -31,9 +31,7 @@ public class BrowserSelection_Switch {
 					System.out.println("Invalid Browser Name");
 					System.out.println("Please select a browser: Chrome, Firefox, Edge");
 					break;
-				
-			
-			}
+				}
 			
 			scanner.close();
 			

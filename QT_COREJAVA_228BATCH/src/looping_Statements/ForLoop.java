@@ -29,6 +29,17 @@ public class ForLoop {
 			System.out.println(i);
 		}  */
 		
+		/*
+		for(int i=5;i<5;i++) //5<5 false
+		{
+			System.out.println(i); // no output
+		} */
+		
+		for(int i=1;i<=10;i++)
+		{
+			//System.out.println(i);	
+			System.out.print(i+" ");
+		}
 	}
 
 }
