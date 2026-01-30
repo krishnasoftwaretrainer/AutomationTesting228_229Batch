@@ -774,4 +774,80 @@ Patterns:
 for() Outer/Rows:5
 {
 for() Inner/Columns:5
+===================
+30-01-2026
+--------
+3.Jumping: break, continue and return
+-----------------
+Red:
+Green:
+
+Interpreter:
+Compiler:
+
+10
+1  2 3:2 8 
+1 2 5 7 9 10:6 4
+break;
+continue;
+
+Definations 
+Syntax:
+FlowCharts 
+Explanations 
+Example Program
+
+datatype variablename=value;
+int a==10;
+
+Arrays in Java:
+---------------100:1001 1002
+int htno1=1001;
+int	htno2=1002;
+int htno3=1003;
+
+Collection of elements of similar/same datatypes.
+
+int double 
+double int  11.0 12.5
+
+Syntax:
+------
+datatype variablename=value;
+datatype arrayvariablename[]={value1,valu2,...};
+int htno[]={1001,1002,1003,....};
+	htno[0]=1001;
+	htno[1]=1002;
+	for(i=1;
+	Syso(i)
+
+Arrays Types:
+------------
+1.Single or One Dimension Array:
+SR MC 
+MR SC 
+
+2.Double or Two Dimension Arrays:
+--------
+MR MC 
+1 2
+3 4 2*2=4
+	C0	C1	C2 
+R0	1	2	3		00	01	02
+R1	4	5	6 = 	10	11	12
+R2	7	8	9		20	21	22
+			3*3=9
+array size=r*c 
+
+
+
+
+3.Multi Dimension Arrays
+
+
+
+1 to 10:
+10S:10:10s
+for:5:5s
+
 
