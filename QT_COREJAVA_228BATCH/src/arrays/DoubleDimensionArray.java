@@ -35,7 +35,8 @@ public class DoubleDimensionArray {
 		//for (int i = 0; i < 4; i++) 
 		{
 			//for (int j = 0; j < 3; j++)
-			for (int j = 0; j < a[0].length; j++)
+			//for (int j = 0; j < a[0].length; j++)
+			for (int j = 0; j < a[i].length; j++) //a[0].length or a[1].length or a[2].length
 			{
 				
 				a[i][j] = scan.nextInt();

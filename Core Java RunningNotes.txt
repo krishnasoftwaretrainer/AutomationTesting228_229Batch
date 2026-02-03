@@ -895,4 +895,34 @@ String name3=new String("Ramu");
 
 SCP:String Pool:
 --------------
+-------------------------
+03-02-2026
+
+---------------------------------------------
+C C++ Java Python .net JS TS  Ruby 
+1.Basic Concepts:
+2.OOPS Concepts:
+
+1.Re-Usability:
+2.Readabulity:
+
+
+1.Methods:Functions 
+---------
+Block of Code/Script:Specific Action
+Method Declaration:
+Syntax:
+------
+1.Static Methods:ClassName or ObjectName 
+AccessSpecifier static Returntype MethodName(Parameters)
+{
+Body;
+}
+2.Non-Static Methods:Object
+AccessSpecifier Returntype MethodName(Parameters)
+{
+Body;
+}
+MainMethod()
+{
 
