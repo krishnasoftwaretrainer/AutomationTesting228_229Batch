@@ -1,18 +1,18 @@
 package methods;
 
-public class Calculator1 
+public class Calculator1 //Methods Declaration Class
 {
 	//Metthod-1 Non-Static Method
-	public void Addition()
+	//public void Addition()
+	public void Addition(int a, int b)
 	{
-		int a = 10;
-		int b = 20;
+		
 		int c = a + b;
 		System.out.println("Addition is: " + c);
 	}
 	
 	//Method-2 Static Method
-	 public static void Subtraction()
+	 private static void Subtraction()
 	 {
 		 int a = 20;
 		 int b = 10;
@@ -20,7 +20,7 @@ public class Calculator1
 		 System.out.println("Subtraction is: " + c);
 	 }
 	 //Method-3 Non-Static Method
-	 public void Multiplication()
+	 protected void Multiplication()
 	 {
 		 int a = 10;
 		 int b = 20;
@@ -29,7 +29,7 @@ public class Calculator1
 	 }
 	
 	 //Method-4 Static Method
-	 public static void Division()
+	  static void Division()
 	 {
 		 int a = 20;
 		 int b = 10;
@@ -41,10 +41,10 @@ public class Calculator1
 	{
 		
 		Calculator1 cal=new Calculator1();
-		cal.Addition();
+		cal.Addition(10,30);
 		//Calculator1.Addition();
 		//Calculator1.Subtraction();
-		cal.Subtraction();
+		Calculator1.Subtraction();
 		cal.Multiplication();
 		Calculator1.Division();
 		

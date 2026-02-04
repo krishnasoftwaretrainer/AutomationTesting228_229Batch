@@ -926,3 +926,77 @@ Body;
 MainMethod()
 {
 
+04-0-2026
+--------
+1.Pre-Define:
+2.User-Define:
+
+Method Declaration:
+Syntax:
+------
+1.Static Methods:ClassName or ObjectName
+class ClassName
+{ 
+AccessSpecifier static Returntype MethodName(Parameters)
+{
+Body;
+}
+MainMethod()
+{
+ClassName.MethodName();
+}
+2.Non-Static Methods:Object
+AccessSpecifier Returntype MethodName(Parameters)
+{
+Body;
+}
+MainMethod()
+{
+ClassName ObjName=new ClassName();
+ObjName.MethodName();
+}
+
+We can Call/Use Methods in 3Ways:
+--------------
+1.Same Package and Same Class 
+ Inside Package and Inside Class 
+2.Same Package and Different Class 
+  Inside Package and OutSide Class 
+3.Different Package and Different Class 
+  OutSide Package and OutSide Class
+ 
+ AccessSpecifiers:
+ -------------
+public:Project Level
+1.Same Package and Same Class 
+ Inside Package and Inside Class 
+2.Same Package and Different Class 
+  Inside Package and OutSide Class 
+3.Different Package and Different Class 
+  OutSide Package and OutSide Class
+
+private:Class Level
+1.Same Package and Same Class 
+ Inside Package and Inside Class 
+
+protected:Package Level
+1.Same Package and Same Class 
+ Inside Package and Inside Class 
+2.Same Package and Different Class 
+  Inside Package and OutSide Class 
+
+default:Package Level
+1.Same Package and Same Class 
+ Inside Package and Inside Class 
+2.Same Package and Different Class 
+  Inside Package and OutSide Class 
+
+Types of User-Define Methods:
+--------------------------
+1.WithOut Returntype and WithOut Parameters 
+2.WithOut Returntype and With Parameters 
+3.With Returntype and WithOut Parameters 
+4.With Returntype and With Parameters 
+
+Primitive:int double String
+
