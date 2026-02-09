@@ -999,4 +999,102 @@ Types of User-Define Methods:
 4.With Returntype and With Parameters 
 
 Primitive:int double String
+--------------------------------------
+2.Constructors in Java:
+-------------------
+ClassName and MethodName:Different:Static or Non-Static
+Object.MethodName();
+
+ClassName ObjName=new ConstructorName();
+Scanner scan=new Scanner();
+
+ClassName and MethodName:Same Non-Static
+Object
+Create only one Constructors.
+Morethan onr Normal Methods. 
+
+
+3.Inheritance in Java:
+-------------------
+Parent:Existing:Super:Base 
+Child:New:Sub:Derived
+
+Is-A:
+Car Is-A Vehicle
+Bus Is-A Vehicle
+Apple Is-A Fruit
+
+extends:KeyWord
+
+Parent Class:Browser Config:Common 10LOS
+Child1:Swag_Valid_UserName_Password
+Child2:Swag_InValid_UserName_Password
+Child3:Swag_InValid_UserName_ValidPassword
+10TC 100->10
+Child1 extends Parent
+Child2 extends Parent
+Child3 extends Parent
+
+Types of Inheritance:
+------------------
+1.Single-Level:Child extends Parent
+2.Multi-Level:GrandParent->Child->Parent
+3.Hierarchical:
+4.Multiple:One Child from MultiPile Parent
+5.Hybrid:
+Parent1 
+Parent2 
+Parent3
+Child extends Parent1,Parent2,Parent3
+Child1 extends Parent
+Child2 extends Parent 
+Child3 extends Parent 
+
+
+
+class Base
+{
+Method1()
+{
+}
+
+4.Polymorphism:MOL & MOR:
+-----------------------
+Poly:Many 
+Morphism:Forms 
+
+Human:KRISHNA:
+1.CompileTime(Static):
+Method OverLoading:
+----------------
+Same MethodName with different parameters.
+
+1.Number of Parameters:
+2.Different DataTypes
+3.InterChange of DataTypes 
+
+2.RunTime(Dynamic):
+Method OverRiding:
+------------
+Parent and Child:extends
+Parent:MethodName same in ChildClass
+
+TRAI:
+
+5.Data Abstraction:
+--------------Hiding the Data 
+Parent:No Implementation[Declare the Methods]
+Customer:
+Child:Complete Implementation at Child Level
+
+1.Abstract:0 to 100%:
+abstract Methods + Non-Abstract= Abstract Class 
+2	+ 2 = 4
+2.Interface:100%
+abstract methods= Inteface Class 
+MultiPile Inheritance 
+
+7.Encapsulation
+8.Exception Handling
+9.Garbage Collection
 

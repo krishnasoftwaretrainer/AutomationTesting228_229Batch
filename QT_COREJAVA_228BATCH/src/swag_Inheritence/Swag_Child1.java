@@ -2,7 +2,6 @@ package swag_Inheritence;
 
 public class Swag_Child1 extends Swag_Parent
 {
-
 	
 	public void ValidLogin()
 	{
@@ -11,10 +10,13 @@ public class Swag_Child1 extends Swag_Parent
 	
 	public static void main(String[] args) {
 		
+				
 		Swag_Child1 c1 = new Swag_Child1();
-		//c1.BrowserConfig();
+		
+		c1.BrowserConfig();
+		c1.URLLaunch();
 		c1.ValidLogin();
-		//c1.BroswerClose();
+		c1.BroswerClose();
 		
 		
 	}

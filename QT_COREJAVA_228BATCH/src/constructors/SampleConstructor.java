@@ -3,10 +3,12 @@ package constructors;
 public class SampleConstructor
 {
 
-	public SampleConstructor()
+	public  SampleConstructor()
 	{
+		String name1="Krishna";
 		System.out.println("This is a sample constructor");
 	}
+	
 	public  void SampleConstructor1()
 	{
 		System.out.println("This is a sample Method");
@@ -14,12 +16,9 @@ public class SampleConstructor
 	
 	public static void main(String[] args) 
 	{
-		//ClassName objectName = new ConstructorName();
-		
-	SampleConstructor sc = new SampleConstructor();
-		sc.SampleConstructor1();
-	
-		Constructor_WithParameters cwp = new Constructor_WithParameters("Alice", 25,2.5);
+		//ClassName objectName = new ClassName();
+		SampleConstructor con=new SampleConstructor();
+		con.SampleConstructor1();
 		
 	}
 }
