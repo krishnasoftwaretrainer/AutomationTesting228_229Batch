@@ -1,0 +1,72 @@
+11-02-2026
+-------------
+Automation Testing:
+------------------
+Selenium with Java/Python/.net/JS/Ruby
+Drivers:Chrome Edge FireFox Opera Safari etc..
+Browser's:Chrome Edge FireFox Opera Safari etc..
+
+Selenium Scripts:
+
+A.IDE:FireFox Browser:Record and Play  
+B.RC:Remote Control:1.0  
+C.WebDriver:2.o
+D.Grid:Parallel:
+HUB, Node1,Node2 etc...
+
+10TC:Click:10Min 
+
+Functionl:Web App,Mobile App, DeskTop App
+WhatsUP
+
+URL:Build:
+
+Selenium Configuration[Environment SetUp]:
+--------
+Java:JDK JRE:1.8 & 11 & 17  25
+EclipseIDE:
+Drivers:145 
+Browsers:
+Selenium WebDriver:>4.17,  4.40
+.jar & Dependecisis
+
+Pre-Conditions:
+Browser Open 
+Maximize
+URL:
+Actual:
+Close Browser
+
+WebDriver driver
+driver =new ChromeDriver();
+driver=new 
+
+1.Open Browser
+2.Maximize Browser
+3.Enter URL 
+4.Enter EmailID
+5.Enter Password
+6.Click on Login
+7.Find the TestResult 
+8.Close Browser
+
+12-02-2026
+------------
+Web Elements:
+Text Box/ Edit Box:
+Text Area
+Button
+Links 
+RadioButtons
+Checkboxes
+Dropdowns
+
+Web Locaters:
+ID 
+Name 
+ClassName 
+Tag 
+LinkText
+PartialLinkText
+CSS-SELECTOR
+XPath

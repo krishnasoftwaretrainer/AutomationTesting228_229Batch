@@ -10,6 +10,8 @@ public class FireFoxBrowser {
 		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com/");
 		driver.close();
+		
+		
 	}
 
 }
