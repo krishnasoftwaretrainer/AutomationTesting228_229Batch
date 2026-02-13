@@ -8,9 +8,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class Browsers_Inheritence 
 {
 
-	static WebDriver driver;
+	protected WebDriver driver;
 	
-	public void OpenChromeBrowser(String AppURL,WebDriver driver) throws InterruptedException
+	public void OpenChromeBrowser(String AppURL) throws InterruptedException
 	{
 		driver=new ChromeDriver(); //Opens the Chrome Browser
 		driver.manage().window().maximize();
@@ -23,7 +23,7 @@ public class Browsers_Inheritence
 		
 	}
 	
-	public void OpenEdgeBrowser(String AppURL,WebDriver driver) throws InterruptedException
+	public void OpenEdgeBrowser(String AppURL) throws InterruptedException
 	{
 		driver=new EdgeDriver(); //Opens the Chrome Browser
 		driver.manage().window().maximize();

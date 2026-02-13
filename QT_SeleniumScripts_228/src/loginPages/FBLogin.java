@@ -5,11 +5,14 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 
-public class FBLogin 
+import workingWithBrowsers.Browsers_Inheritence;
+
+public class FBLogin extends Browsers_Inheritence
 {
-	
+	/*
 	public static void main(String[] args) throws InterruptedException 
 	{
+		
 		WebDriver driver=new EdgeDriver();
 		driver.manage().window().maximize();
 		
@@ -26,13 +29,9 @@ public class FBLogin
 		
 		//https://www.saucedemo.com/
 	}
+	*/
 	
-	
-	
-	
-	/*
-   static WebDriver driver;
-   
+     
 	public void LoginToFB()
 	{
 		driver.findElement(By.id("email")).sendKeys("Krishna@gmail.com");
@@ -42,13 +41,13 @@ public class FBLogin
 	{
 		FBLogin fb=new FBLogin();
 		//fb.OpenChromeBrowser("https://www.facebook.com/");
-		fb.OpenEdgeBrowser("https://www.facebook.com/",driver);
+		fb.OpenEdgeBrowser("https://www.facebook.com/");
 		fb.LoginToFB();
 		
 		
 		
 	}
-*/
+
 
 
 }
