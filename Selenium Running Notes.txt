@@ -117,3 +117,26 @@ SELENIUM TOPICS:
 
 Title Verification
 URL Verification
+----------------------------------------
+Title Verification:
+URL Verification:
+
+XPath:
+1.Absolute XPath:
+/html/body/div/div/div[2]/div[1]/div/div/form/div[3]/h3/text()
+
+2.Relative XPath:
+//*[@id="login-button"]
+
+//TagName[@Attribute="Value"]
+//h3[@data-test="error"]
+//button[@name="login"]
+
+//TagName[text()="Text/Value"]
+//h3[text()="Epic sadface: Username and password do not match any user in this service"]
+
+//tagname[text()="Exact Text"]
+//tagname[contains(text(),"Text")]
+//tagname[normalize-space(text())="Excat Text"]
+//tagname[contains(normalize-space(.),"Text");
+
