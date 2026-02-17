@@ -139,4 +139,22 @@ XPath:
 //tagname[contains(text(),"Text")]
 //tagname[normalize-space(text())="Excat Text"]
 //tagname[contains(normalize-space(.),"Text");
+==============================
+
+Browser Navigations:
+------------------
+BackWard
+ForWard
+ReFresh
+URL 
+
+Alerts:
+------
+Accept()
+Dismiss()
+SendKeys()
+getText()
+
+Frames:
+------
 

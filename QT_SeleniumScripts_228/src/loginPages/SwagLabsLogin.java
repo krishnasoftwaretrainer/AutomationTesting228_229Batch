@@ -7,7 +7,8 @@ import org.openqa.selenium.edge.EdgeDriver;
 
 public class SwagLabsLogin {
 
-	public static void main(String[] args) throws InterruptedException {
+	public static void main(String[] args) throws InterruptedException 
+	{
 		WebDriver driver = new EdgeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.saucedemo.com/");
@@ -19,7 +20,7 @@ public class SwagLabsLogin {
 		// 2.Enter InValid Password
 		WebElement password = driver.findElement(By.id("password"));
 		//password.sendKeys("secret_sauce");
-		password.sendKeys("fhsdjskj");
+		password.sendKeys("secret_sauce");
 		
 		Thread.sleep(2000);
 		// 3.Click on Login Button
