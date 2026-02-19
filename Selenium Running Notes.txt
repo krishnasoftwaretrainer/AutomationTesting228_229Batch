@@ -157,4 +157,65 @@ getText()
 
 Frames:
 ------
+----------------
+Browser Navigations:
+------------------
+BackWard
+ForWard
+ReFresh
+URL 
+
+Alerts:
+------
+Accept()
+Dismiss()
+SendKeys()
+getText()
+
+SCREENSHOTS:
+---
+// Screen Shot-1
+File sc1 = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+Files.copy(sc1, new File("D:\\QT\\QT_Selenium_225,226,227\\ScreenShots\\ 1SC1.png"));
+
+Frames:
+------
+By Index
+By StringID or StringName 
+By WebElement
+driver.switchTo().defaultContent();
+
+Window Handling
+-------------
+SwitchTo:New Tabs and New Windows
+Window Tab 1 ID: 934E24616338C351CC96A58F58FFD97A
+Window Tab 1 ID: 367C604CC3102BD2DB8CE7BBA450943F
+
+Action Class:
+------------
+Double Click
+Right Click
+
+Copy and Paste 
+DSGD
+
+KeyBoard Actions:
+----------------
+Scenario1:
+Capital Letters:ABCDEFGH:Shift+Alphbets
+Select:Ctrl+A 
+Copy:Ctrl+C 
+Paste[New Place]:Ctrl+V 
+
+KeyDown:Press
+KeyUp:Release
+SendKeys:Pass Text
+Build
+Perform
+
+Rama Rao 
+Rama Rao 
+
+Mouse Action:
+-----------
 

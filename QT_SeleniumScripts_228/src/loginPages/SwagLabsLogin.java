@@ -3,13 +3,14 @@ package loginPages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 
 public class SwagLabsLogin {
 
 	public static void main(String[] args) throws InterruptedException 
 	{
-		WebDriver driver = new EdgeDriver();
+		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.saucedemo.com/");
 		
@@ -26,10 +27,10 @@ public class SwagLabsLogin {
 		// 3.Click on Login Button
 		WebElement login = driver.findElement(By.id("login-button"));
 		login.click();
-		
+		/*
 		//WebElement ErrorMesg=driver.findElement(By.xpath("//h3[text()=\"Epic sadface: Username and password do not match any user in this service\"]"));
 		//Absolute Xpath
-		WebElement ErrorMesg=driver.findElement(By.xpath("/html/body/div/div/div[2]/div[1]/div/div/form/div[3]/h3"));
+		//WebElement ErrorMesg=driver.findElement(By.xpath("/html/body/div/div/div[2]/div[1]/div/div/form/div[3]/h3"));
 		//System.out.println("Error Message: "+ErrorMesg.getText());
 		
 		if (ErrorMesg.isDisplayed())
@@ -41,7 +42,7 @@ public class SwagLabsLogin {
 		else
 		{
 			System.out.println("Login is Successful");
-		}
+		} */
 	}
 
 }
