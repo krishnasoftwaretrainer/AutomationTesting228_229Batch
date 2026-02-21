@@ -10,6 +10,7 @@ public class SwagLabsLogin {
 
 	public static void main(String[] args) throws InterruptedException 
 	{
+		//Test Case-1
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.saucedemo.com/");
@@ -27,6 +28,31 @@ public class SwagLabsLogin {
 		// 3.Click on Login Button
 		WebElement login = driver.findElement(By.id("login-button"));
 		login.click();
+		Thread.sleep(2000);
+		System.out.println("TC-1 is executed successfully"); 
+		// driver.close();
+		// Thread.sleep(2000);
+		 
+		//Test Case-2 IV-IV
+		WebDriver driver1 = new ChromeDriver();
+		driver1.manage().window().maximize();
+		driver1.get("https://www.saucedemo.com/");
+		
+		// 1.Enter Valid Username
+		WebElement username1 = driver1.findElement(By.id("user-name"));
+		username1.sendKeys("sgsdsdgsd");
+		Thread.sleep(2000);
+		// 2.Enter InValid Password
+		WebElement password1 = driver1.findElement(By.id("password"));
+		//password.sendKeys("secret_sauce");
+		password1.sendKeys("dgsdgsg");
+		
+		Thread.sleep(2000);
+		// 3.Click on Login Button
+		WebElement login1 = driver1.findElement(By.id("login-button"));
+		login1.click();
+		System.out.println("TC-2 is executed successfully");
+		
 		/*
 		//WebElement ErrorMesg=driver.findElement(By.xpath("//h3[text()=\"Epic sadface: Username and password do not match any user in this service\"]"));
 		//Absolute Xpath

@@ -20,6 +20,7 @@ public class Double_Right_Click {
 		driver.findElement(By.partialLinkText("Buttons")).click();
 		Thread.sleep(1000);
 		js.executeScript("window.scrollBy(0,-200)");
+		driver.close();
 	}
 
 }
