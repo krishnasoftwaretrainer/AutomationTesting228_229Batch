@@ -35,6 +35,8 @@ public class SwagLabsLogin_Method_WithP extends BrowserParent
 		Thread.sleep(2000);
 		//driver.close();
 		
+		
+		
 	}
 	
 	public static void main(String[] args) throws InterruptedException 

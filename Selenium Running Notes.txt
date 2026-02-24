@@ -219,3 +219,27 @@ Rama Rao
 Mouse Action:
 -----------
 
+Parent
+Parent()
+
+Child extends Parent 
+Child()
+
+RightClick(): 30%+20%=90% 
+
+Mouse Actions:
+------------
+
+File Upload and Download:
+---------------------
+https://demo.automationtesting.in/FileDownload.html
+https://www.oracle.com/in/java/technologies/downloads/#java25
+
+File Upload:
+----------
+https://www.naukri.com/registration/createAccount
+
+AUTOIT FrameWork:
+----------------
+
+
