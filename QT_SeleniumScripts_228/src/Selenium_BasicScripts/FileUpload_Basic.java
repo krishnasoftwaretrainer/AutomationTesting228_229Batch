@@ -16,7 +16,7 @@ public class FileUpload_Basic {
 		//browse.click();
 		browse.sendKeys("C:\\Users\\HP\\Downloads\\info (6).txt");
 		Thread.sleep(1000);
-		browse.sendKeys("\"C:\\Users\\HP\\Downloads\\info (2).pdf\"");
+		//browse.sendKeys("\"C:\\Users\\HP\\Downloads\\info (2).pdf\"");
 		
 		
 	}

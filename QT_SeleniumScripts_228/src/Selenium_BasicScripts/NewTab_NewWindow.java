@@ -3,6 +3,7 @@ package Selenium_BasicScripts;
 import java.io.File;
 import java.util.Set;
 
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -16,7 +17,11 @@ public class NewTab_NewWindow {
 
 	public static void main(String[] args) throws InterruptedException {
 		WebDriver driver = new ChromeDriver();
-		driver.manage().window().maximize();
+		//driver.manage().window().maximize();
+		//driver.manage().window().setSize(new Dimension(1000, 1000));
+		driver.manage().window().fullscreen();
+		driver.manage().deleteAllCookies();
+		driver.manage().window().minimize();
 		// driver.get("https://www.google.com/");
 		driver.navigate().to("https://www.selenium.dev/");
 		Thread.sleep(2000);
