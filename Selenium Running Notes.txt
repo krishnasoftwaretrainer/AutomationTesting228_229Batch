@@ -242,4 +242,41 @@ https://www.naukri.com/registration/createAccount
 AUTOIT FrameWork:
 ----------------
 
+TestNG FrameWork:
+---------------
+TestNG:Concepts: JUnit+NUint=TestNG 
+-------
+1.TestNG Library inclusion (.jar / Maven dependency)
+2. No 'main()' method required[Annotations @Test]
+3. TestNG Test Execution(@Test)
+4. Test Results – Pass / Fail count 
+5. HTML Reports – `test-output/index.html`
+6. Test priority
+7. Invocation count=3
+	Enable / Disable tests
+8. Test Suite execution using `testng.xml`
+9. Failed test re-run – `testng-failed.xml`
+10. TestNG Annotations ('@Test', `@BeforeSuite`, `@AfterSuite`, `@BeforeTest`, `@AfterTest`, `@BeforeClass`, `@AfterClass`, `@BeforeMethod`, '@AfterMethod', `@BeforeGroups`, `@AfterGroups`)
+11. Data-driven testing (`.properties`, `.xlsx`, `@DataProvider`)
+12. Assertions (Hard, Soft) 10TC:P P F P P F P P
+13. Parameters from `testng.xml`
+14. Groups (Smoke, Sanity, Regression)
+15. Enable / Disable tests
+
+Class:Methods/Test:
+
+Test Suit:Click:Run:15Tests 
+Class1:Methods/Test:5 No 
+Class2:Methods/Test:5
+Class3:Methods/Test:5
+
+Assertions:Excepted vs Actual
+Interpreter and Compiler
+
+10TC:3Fail 
+1.Hard[Interpreter]:2P 8F 
+Critical:HS 
+
+2.Soft[Compiler]:2P 8F
+
 
