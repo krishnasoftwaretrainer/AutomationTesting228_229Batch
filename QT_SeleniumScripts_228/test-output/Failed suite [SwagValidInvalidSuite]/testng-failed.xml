@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Failed suite [Failed suite [SwagValidInvalidSuite]]]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="SwagValidInvalidTest(failed)(failed)(failed)">
+<suite name="Failed suite [Failed suite [SwagValidInvalidSuite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SwagValidInvalidTest(failed)(failed)">
     <classes>
       <class name="testNGSuit.Swag_InValidInValid">
         <methods>
@@ -11,5 +11,5 @@
         </methods>
       </class> <!-- testNGSuit.Swag_InValidInValid -->
     </classes>
-  </test> <!-- SwagValidInvalidTest(failed)(failed)(failed) -->
-</suite> <!-- Failed suite [Failed suite [Failed suite [SwagValidInvalidSuite]]] -->
+  </test> <!-- SwagValidInvalidTest(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [SwagValidInvalidSuite]] -->

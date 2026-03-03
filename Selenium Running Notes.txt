@@ -278,5 +278,25 @@ Interpreter and Compiler
 Critical:HS 
 
 2.Soft[Compiler]:2P 8F
+===================
+20TC:19P 1F 
+Test Suit: 
+
+End-To-End
+Soft Coding:
+----------
+Hybrid FrameWork:TestNG+DataDriven
+--------------
+Browser Configuration:Parent Class 
+Locaters:POM 
+TestData:Parameters[Suit], Properties, Excel[.xlsx]
+Excel Utilities
+Methods/Functions[Child]:Script:Run 
+
+Data Driven FrameWork[Testing]:
+----------------------------
+Parameters[Suit]:
+Properties:
+Excel[.xlsx]:ApachePOI
 
 

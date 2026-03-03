@@ -5,22 +5,29 @@ import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-public class SwagLabsLogin_TestNG 
+public class TestNG_Annotations 
 {
 	WebDriver driver;
-	@BeforeMethod
+	//@BeforeTest
+	//@BeforeMethod
+	@BeforeClass
 	public void BrowserSetup()
 	{
 		driver = new ChromeDriver();
 		driver.manage().window().setSize(new Dimension(1000, 1000));
 		driver.get("https://www.saucedemo.com/");
-		
 	}
+	
 	@Test(priority = 0)
 	public void Swag_ValidLogin()
 	{
@@ -43,8 +50,7 @@ public class SwagLabsLogin_TestNG
 		softAssert.assertAll(); //Report
 		
 	}
-	/*
-	@Test(priority = 1,enabled = false)
+	@Test(priority = 1)
 	public void Swag_InvalidLogin()
 	{
 		WebElement username = driver.findElement(By.id("user-name"));
@@ -60,10 +66,14 @@ public class SwagLabsLogin_TestNG
 		
 		Assert.assertEquals(actualErrorMessage, expectedErrorMessage,"Error message does not match the expected message.");
 	
-	} */
-	@AfterMethod
+	} 
+
+	//@AfterTest
+	//@AfterMethod
+	@AfterClass
 	public void BrowserTearDown()
 	{
 		driver.quit();
 	}
+	
 }
