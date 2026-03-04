@@ -298,5 +298,28 @@ Data Driven FrameWork[Testing]:
 Parameters[Suit]:
 Properties:
 Excel[.xlsx]:ApachePOI
+===============================
+04-03-2026
+
+Hybrid FrameWork:TestNG+DataDriven
+--------------
+TestNG+Data-Driven+POM=Hybrid
+Browser Configuration:Parent Class 
+Chrome Edge 
+Locaters:POM 
+TestData:Parameters[Suit], Properties, Excel[.xlsx]
+Excel Utilities
+Methods/Functions[Child]:Script:Run 
+Test Class 
+
+Data Driven FrameWork[Testing]:
+----------------------------
+Parameters[Suit.xml][TestNG]:
+Properties:
+Excel[.xlsx]:ApachePOI
+
+TestData+Script[Locaters+Actions]=Selenium Script
+TestData:Seperate FILE
+Script[Locaters+Actions]
 
 
