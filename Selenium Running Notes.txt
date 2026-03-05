@@ -321,5 +321,40 @@ Excel[.xlsx]:ApachePOI
 TestData+Script[Locaters+Actions]=Selenium Script
 TestData:Seperate FILE
 Script[Locaters+Actions]
+==================
+05-03-2026
 
 
+WorkBook/File 
+Sheet's 
+Rows's 
+Columns/Cells
+
+Create Single Sheet:WorkBook and Sheet 
+Create Multiple Sheets
+Write Data into Single Cell
+Write Data into Multiple Cells
+Write Data into Single Row
+Write Data into Multiple Rows
+Read Data from Single Cell
+Read Data from Multiple Cells/Rows
+
+ApachePOI:.jar[Download and Add to Project] 
+ 
+HSSF:<2003 .xls
+XSSF:XML .xlsx
+WorkBook
+Sheet
+Row 
+Cell
+Set , get  
+
+FileInputstream:Read get 
+FileOutputStream:Write Create  Hai 
+
+String:Krishna
+Numeric:55,68.33
+
+For Download ApachPOI Jar Files
+
+https://archive.apache.org/dist/poi/release/bin/

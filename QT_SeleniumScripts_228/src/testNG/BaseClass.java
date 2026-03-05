@@ -11,6 +11,7 @@ import org.testng.annotations.Parameters;
 public class BaseClass  //Parent
 {
 	WebDriver driver;
+	ThreadLocal<WebDriver> tldriver=new ThreadLocal<WebDriver>();
 	@BeforeMethod
 	@Parameters({"browser","url"})
 	public void BrowserSetup(String browser,String url)

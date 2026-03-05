@@ -1,10 +1,14 @@
 package loginPages;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class SwagLabsLogin {
 
@@ -12,21 +16,22 @@ public class SwagLabsLogin {
 	{
 		//Test Case-1
 		WebDriver driver = new ChromeDriver();
+		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		driver.manage().window().maximize();
 		driver.get("https://www.saucedemo.com/");
 		
 		// 1.Enter Valid Username
-		WebElement username = driver.findElement(By.id("user-name"));
+		WebElement username =wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("user-name")));
 		username.sendKeys("standard_user");
 		Thread.sleep(2000);
 		// 2.Enter InValid Password
-		WebElement password = driver.findElement(By.id("password"));
-		//password.sendKeys("secret_sauce");
+		WebElement password = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("password")));
 		password.sendKeys("secret_sauce");
 		
 		Thread.sleep(2000);
 		// 3.Click on Login Button
-		WebElement login = driver.findElement(By.id("login-button"));
+		WebElement login = wait.until(ExpectedConditions.elementToBeClickable(By.id("login-button")));
 		login.click();
 		Thread.sleep(2000);
 		System.out.println("TC-1 is executed successfully"); 

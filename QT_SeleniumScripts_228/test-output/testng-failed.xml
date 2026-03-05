@@ -1,49 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [ParametersSuite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="ChromeTest(failed)">
-    <parameter name="vpassword" value="secret_sauce"/>
-    <parameter name="browser" value="chrome"/>
-    <parameter name="vusername" value="standard_user"/>
-    <parameter name="url" value="https://www.saucedemo.com/"/>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNG.Swag_Parameters">
+      <class name="test.AllTestCases_Data_Provider_TestNG">
         <methods>
-          <include name="BrowserTearDown"/>
-          <include name="InvalidLogin"/>
-          <include name="BrowserSetup"/>
+          <include name="SwagLabsLogin" invocation-numbers="1 2 3 4 5 6"/>
         </methods>
-      </class> <!-- testNG.Swag_Parameters -->
+      </class> <!-- test.AllTestCases_Data_Provider_TestNG -->
     </classes>
-  </test> <!-- ChromeTest(failed) -->
-  <test thread-count="5" name="EdgeTest(failed)">
-    <parameter name="vpassword" value="secret_sauce"/>
-    <parameter name="browser" value="edge"/>
-    <parameter name="vusername" value="standard_user"/>
-    <parameter name="url" value="https://www.saucedemo.com/"/>
-    <classes>
-      <class name="testNG.Swag_Parameters">
-        <methods>
-          <include name="BrowserTearDown"/>
-          <include name="InvalidLogin"/>
-          <include name="BrowserSetup"/>
-        </methods>
-      </class> <!-- testNG.Swag_Parameters -->
-    </classes>
-  </test> <!-- EdgeTest(failed) -->
-  <test thread-count="5" name="FireFoxTest(failed)">
-    <parameter name="vpassword" value="secret_sauce"/>
-    <parameter name="browser" value="firefox"/>
-    <parameter name="vusername" value="standard_user"/>
-    <parameter name="url" value="https://www.saucedemo.com/"/>
-    <classes>
-      <class name="testNG.Swag_Parameters">
-        <methods>
-          <include name="BrowserTearDown"/>
-          <include name="InvalidLogin"/>
-          <include name="BrowserSetup"/>
-        </methods>
-      </class> <!-- testNG.Swag_Parameters -->
-    </classes>
-  </test> <!-- FireFoxTest(failed) -->
-</suite> <!-- Failed suite [ParametersSuite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
