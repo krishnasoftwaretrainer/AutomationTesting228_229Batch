@@ -1,4 +1,4 @@
-package dataDrivenFrameWork;
+package test;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -15,7 +15,7 @@ public class BaseClass
 		driver.manage().window().maximize();
 		driver.get("https://www.saucedemo.com/");
 		
-	}
+	} 
 	
 	@AfterMethod
 	public void BrowserClose()

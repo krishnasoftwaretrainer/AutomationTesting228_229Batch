@@ -1,4 +1,4 @@
-package test;
+package testNG;
 
 import org.openqa.selenium.By;
 import org.testng.annotations.DataProvider;
@@ -8,7 +8,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class AllTestCases_Data_Provider_TestNG {
 	
 	@DataProvider(name="SwagLabs_All_TestCases")
-	
 	public Object[][] SwagTestData()
 	
 	{
@@ -24,7 +23,8 @@ public class AllTestCases_Data_Provider_TestNG {
 			
 			};
 	}
-
+	
+	
 @Test(dataProvider = "SwagLabs_All_TestCases")
 public void SwagLabsLogin(String UserName, String Password) throws InterruptedException
  //Without ReturnType and With Parameters 
