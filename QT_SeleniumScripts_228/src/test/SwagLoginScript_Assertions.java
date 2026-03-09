@@ -36,9 +36,7 @@ public class SwagLoginScript_Assertions extends BaseClass
 		String actualError = driver.findElement(By.xpath("//h3[@data-test=\"error\"]")).getText();
 		Assert.assertTrue(actualError.contains("Epic sadface:"),"Error message is not Displayed");
 	        
-	   }
-       
-      
+	   }    
         
         
 	}

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.AllTestCases_Data_Provider_TestNG">
+      <class name="dataDrivenFrameWork.SwagTestData_ExcelExcepted_Assert">
         <methods>
-          <include name="SwagLabsLogin" invocation-numbers="1 2 3 4 5 6"/>
+          <include name="loginTest"/>
         </methods>
-      </class> <!-- test.AllTestCases_Data_Provider_TestNG -->
+      </class> <!-- dataDrivenFrameWork.SwagTestData_ExcelExcepted_Assert -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

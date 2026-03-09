@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-06T12:53:18 IST" name="Default suite" finished-at="2026-03-06T12:54:27 IST" duration-ms="69509">
+  <suite started-at="2026-03-09T13:02:45 IST" name="Default suite" finished-at="2026-03-09T13:03:04 IST" duration-ms="19247">
     <groups>
     </groups>
-    <test started-at="2026-03-06T12:53:18 IST" name="Default test" finished-at="2026-03-06T12:54:27 IST" duration-ms="69509">
-      <class name="testNG.AllTestCases_Data_Provider_TestNG">
-        <test-method signature="SwagLabsLogin(java.lang.String,java.lang.String)[pri:0, instance:testNG.AllTestCases_Data_Provider_TestNG@5ffead27]" started-at="2026-03-06T12:53:18 IST" name="SwagLabsLogin" data-provider="SwagLabs_All_TestCases" finished-at="2026-03-06T12:53:29 IST" duration-ms="11215" status="PASS">
+    <test started-at="2026-03-09T13:02:45 IST" name="Default test" finished-at="2026-03-09T13:03:04 IST" duration-ms="19247">
+      <class name="dataDrivenFrameWork.SwagTestData_ExcelExcepted_Assert">
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dataDrivenFrameWork.SwagTestData_ExcelExcepted_Assert@5ffead27]" started-at="2026-03-09T13:02:46 IST" name="loginTest" data-provider="loginData" finished-at="2026-03-09T13:02:51 IST" duration-ms="5450" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -19,11 +19,16 @@
                 <![CDATA[secret_sauce]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[Homepage]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SwagLabsLogin -->
-        <test-method signature="SwagLabsLogin(java.lang.String,java.lang.String)[pri:0, instance:testNG.AllTestCases_Data_Provider_TestNG@5ffead27]" started-at="2026-03-06T12:53:29 IST" name="SwagLabsLogin" data-provider="SwagLabs_All_TestCases" finished-at="2026-03-06T12:53:39 IST" duration-ms="9285" status="PASS">
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dataDrivenFrameWork.SwagTestData_ExcelExcepted_Assert@5ffead27]" started-at="2026-03-09T13:02:51 IST" name="loginTest" data-provider="loginData" finished-at="2026-03-09T13:02:53 IST" duration-ms="2448" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -32,18 +37,23 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[abcdefg]]>
+                <![CDATA[invalidpwd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[error]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SwagLabsLogin -->
-        <test-method signature="SwagLabsLogin(java.lang.String,java.lang.String)[pri:0, instance:testNG.AllTestCases_Data_Provider_TestNG@5ffead27]" started-at="2026-03-06T12:53:39 IST" name="SwagLabsLogin" data-provider="SwagLabs_All_TestCases" finished-at="2026-03-06T12:53:48 IST" duration-ms="9288" status="PASS">
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dataDrivenFrameWork.SwagTestData_ExcelExcepted_Assert@5ffead27]" started-at="2026-03-09T13:02:53 IST" name="loginTest" data-provider="loginData" finished-at="2026-03-09T13:02:56 IST" duration-ms="2441" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[adsnhjhj]]>
+                <![CDATA[problem_user]]>
               </value>
             </param>
             <param index="1">
@@ -51,27 +61,58 @@
                 <![CDATA[secret_sauce]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[homepage]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SwagLabsLogin -->
-        <test-method signature="SwagLabsLogin(java.lang.String,java.lang.String)[pri:0, instance:testNG.AllTestCases_Data_Provider_TestNG@5ffead27]" started-at="2026-03-06T12:53:48 IST" name="SwagLabsLogin" data-provider="SwagLabs_All_TestCases" finished-at="2026-03-06T12:53:59 IST" duration-ms="11075" status="PASS">
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dataDrivenFrameWork.SwagTestData_ExcelExcepted_Assert@5ffead27]" started-at="2026-03-09T13:02:56 IST" name="loginTest" data-provider="loginData" finished-at="2026-03-09T13:02:58 IST" duration-ms="2412" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[dfghjk]]>
+                <![CDATA[locked_out_user]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[asghjfgkhj]]>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[error]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SwagLabsLogin -->
-        <test-method signature="SwagLabsLogin(java.lang.String,java.lang.String)[pri:0, instance:testNG.AllTestCases_Data_Provider_TestNG@5ffead27]" started-at="2026-03-06T12:53:59 IST" name="SwagLabsLogin" data-provider="SwagLabs_All_TestCases" finished-at="2026-03-06T12:54:09 IST" duration-ms="9712" status="PASS">
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dataDrivenFrameWork.SwagTestData_ExcelExcepted_Assert@5ffead27]" started-at="2026-03-09T13:02:58 IST" name="loginTest" data-provider="loginData" finished-at="2026-03-09T13:03:01 IST" duration-ms="2419" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[error_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[homepage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dataDrivenFrameWork.SwagTestData_ExcelExcepted_Assert@5ffead27]" started-at="2026-03-09T13:03:01 IST" name="loginTest" data-provider="loginData" finished-at="2026-03-09T13:03:04 IST" duration-ms="3110" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -83,43 +124,16 @@
                 <![CDATA[]]>
               </value>
             </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SwagLabsLogin -->
-        <test-method signature="SwagLabsLogin(java.lang.String,java.lang.String)[pri:0, instance:testNG.AllTestCases_Data_Provider_TestNG@5ffead27]" started-at="2026-03-06T12:54:09 IST" name="SwagLabsLogin" data-provider="SwagLabs_All_TestCases" finished-at="2026-03-06T12:54:18 IST" duration-ms="9660" status="PASS">
-          <params>
-            <param index="0">
+            <param index="2">
               <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
+                <![CDATA[error]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SwagLabsLogin -->
-        <test-method signature="SwagLabsLogin(java.lang.String,java.lang.String)[pri:0, instance:testNG.AllTestCases_Data_Provider_TestNG@5ffead27]" started-at="2026-03-06T12:54:18 IST" name="SwagLabsLogin" data-provider="SwagLabs_All_TestCases" finished-at="2026-03-06T12:54:27 IST" duration-ms="9184" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SwagLabsLogin -->
-      </class> <!-- testNG.AllTestCases_Data_Provider_TestNG -->
+        </test-method> <!-- loginTest -->
+      </class> <!-- dataDrivenFrameWork.SwagTestData_ExcelExcepted_Assert -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
