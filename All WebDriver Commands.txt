@@ -1,0 +1,373 @@
+1. WebDriver Browser Commands
+-------------------
+get(String url) – Opens the specified URL in the browser.
+
+getTitle() – Returns the title of the current webpage.
+
+getCurrentUrl() – Returns the URL of the current webpage.
+
+getPageSource() – Returns the HTML source of the page.
+
+close() – Closes the current browser window.
+
+quit() – Closes all browser windows and ends WebDriver session.
+
+manage() – Access browser options like cookies, window, timeouts.
+
+navigate() – Used for browser navigation operations.
+
+switchTo() – Switch control to alerts, frames, or windows.
+
+2. Navigation Commands
+--------------------
+navigate().to(String url) – Navigate to a URL.
+
+navigate().back() – Navigate back to previous page.
+
+navigate().forward() – Navigate forward to next page.
+
+navigate().refresh() – Refresh the current page.
+
+3. WebElement Basic Methods
+--------------------
+click() – Clicks the element.
+
+sendKeys(String text) – Types text into input fields.
+
+clear() – Clears text from input field.
+
+submit() – Submits the form.
+
+getText() – Returns visible text of element.
+
+getAttribute(String name) – Returns value of an attribute.
+
+getTagName() – Returns HTML tag name.
+
+getCssValue(String property) – Returns CSS property value.
+
+4. WebElement Status Methods
+--------------------
+isDisplayed() – Returns true if element is visible.
+
+isEnabled() – Returns true if element is enabled.
+
+isSelected() – Returns true if element is selected.
+
+5. WebElement Position & Size
+--------------------
+getLocation() – Returns x and y coordinates of element.
+
+getSize() – Returns height and width of element.
+
+getRect() – Returns size and position of element.
+
+6. Element Finding Methods
+--------------------
+findElement(By locator) – Returns first matching element.
+
+findElements(By locator) – Returns list of matching elements.
+
+7. Locator Strategies
+--------------------
+By.id() – Locate element using id attribute.
+
+By.name() – Locate element using name attribute.
+
+By.className() – Locate element using class name.
+
+By.tagName() – Locate element using tag name.
+
+By.linkText() – Locate element using full link text.
+
+By.partialLinkText() – Locate element using partial link text.
+
+By.cssSelector() – Locate element using CSS selector.
+
+By.xpath() – Locate element using XPath.
+
+8. Window Management Commands
+--------------------
+manage().window().maximize() – Maximize browser window.
+
+manage().window().minimize() – Minimize browser window.
+
+manage().window().fullscreen() – Fullscreen browser.
+
+manage().window().getSize() – Returns window size.
+
+manage().window().setSize() – Sets window size.
+
+manage().window().getPosition() – Returns window position.
+
+manage().window().setPosition() – Sets window position.
+
+9. Alert Handling
+--------------------
+switchTo().alert() – Switch to alert popup.
+
+accept() – Accept alert.
+
+dismiss() – Cancel alert.
+
+getText() – Get alert message.
+
+sendKeys(String text) – Enter text in alert box.
+
+10. Frame Handling
+--------------------
+switchTo().frame(int index) – Switch using frame index.
+
+switchTo().frame(String name) – Switch using frame name.
+
+switchTo().frame(WebElement frameElement) – Switch using element.
+
+switchTo().defaultContent() – Switch back to main page.
+
+switchTo().parentFrame() – Switch to parent frame.
+
+11. Wait Commands
+--------------------
+implicitlyWait(Duration time) – Global wait for elements.
+
+WebDriverWait – Explicit wait for specific condition.
+
+FluentWait – Advanced wait with polling frequency.
+
+12. Select Class (Dropdown)
+--------------------
+selectByVisibleText(String text) – Select option by visible text.
+
+selectByValue(String value) – Select option by value.
+
+selectByIndex(int index) – Select option by index.
+
+getOptions() – Returns all options in dropdown.
+
+getFirstSelectedOption() – Returns first selected option.
+
+deselectAll() – Deselect all options.
+
+13. Actions Class (Mouse & Keyboard)
+--------------------
+moveToElement() – Move mouse to element.
+
+doubleClick() – Double-click an element.
+
+contextClick() – Right-click an element.
+
+clickAndHold() – Click and hold element.
+
+dragAndDrop() – Drag element and drop to target.
+
+release() – Release mouse button.
+
+sendKeys() – Send keyboard keys.
+
+perform() – Execute the action.
+
+build() – Build composite action.
+
+14. Screenshot Commands
+--------------------
+getScreenshotAs() – Capture screenshot of the page.
+
+takeScreenshot() – Capture screenshot of specific element.
+
+15. Cookie Commands
+--------------------
+manage().getCookies() – Get all cookies.
+
+manage().getCookieNamed() – Get specific cookie.
+
+manage().addCookie() – Add cookie.
+
+manage().deleteCookie() – Delete specific cookie.
+
+manage().deleteAllCookies() – Delete all cookies.
+
+============================
+1. TestNG Annotations (Framework Execution Control)
+--------------------
+@BeforeSuite – Executes once before all tests in the suite.
+
+@AfterSuite – Executes once after all tests in the suite.
+
+@BeforeTest – Executes before <test> tag in testng.xml.
+
+@AfterTest – Executes after <test> tag in testng.xml.
+
+@BeforeClass – Executes once before the first test method of the class.
+
+@AfterClass – Executes once after all test methods in the class.
+
+@BeforeMethod – Executes before each test method.
+
+@AfterMethod – Executes after each test method.
+
+@Test – Marks a method as a test case.
+
+@DataProvider – Provides test data to test methods.
+
+@Parameters – Pass parameters from testng.xml.
+
+@Optional – Optional parameter if value is not provided.
+
+@Listeners – Attach TestNG listeners.
+
+@Ignore – Skip the test.
+
+2. TestNG Assertions
+--------------------
+Assert.assertEquals(actual, expected) – Verify two values are equal.
+
+Assert.assertTrue(condition) – Verify condition is true.
+
+Assert.assertFalse(condition) – Verify condition is false.
+
+Assert.assertNull(object) – Verify object is null.
+
+Assert.assertNotNull(object) – Verify object is not null.
+
+Assert.fail() – Mark test as failed intentionally.
+
+3. DataProvider (Data Driven Testing)
+--------------------
+@DataProvider(name="data") – Define a data source for tests.
+
+Object[][] – Two-dimensional array used to supply test data.
+
+dataProvider="data" – Link DataProvider with test method.
+
+Example structure:
+
+@DataProvider(name="loginData")
+public Object[][] data() {
+    return new Object[][]{
+        {"user1","pass1"},
+        {"user2","pass2"}
+    };
+}
+4. Apache POI (Excel Data Driven)
+--------------------
+getSheet() – Get a sheet from workbook.
+
+getRow() – Get specific row.
+
+getCell() – Get specific cell.
+
+getPhysicalNumberOfRows() – Returns number of used rows.
+
+getLastRowNum() – Returns index of last row.
+
+getStringCellValue() – Get cell value as string.
+
+getNumericCellValue() – Get numeric cell value.
+
+5. Page Object Model (POM)
+--------------------
+PageFactory.initElements() – Initialize page elements.
+
+@FindBy – Locate element using annotation.
+
+@FindAll – Multiple locator strategy.
+
+Example:
+
+@FindBy(id="user-name")
+WebElement username;
+
+Constructor(WebDriver driver) – Initialize driver in page class.
+
+Page Methods – Actions like login(), addToCart() etc.
+
+6. Maven Commands
+--------------------
+mvn clean – Deletes target folder.
+
+mvn compile – Compiles project source code.
+
+mvn test – Runs test cases.
+
+mvn package – Creates JAR/WAR file.
+
+mvn install – Installs package into local repository.
+
+mvn dependency:tree – Shows project dependencies.
+
+mvn verify – Runs checks on integration tests.
+
+7. Maven Dependencies (Common)
+--------------------
+selenium-java – Selenium automation library.
+
+testng – Test framework.
+
+webdrivermanager – Automatic driver management.
+
+apache-poi – Excel file reading.
+
+log4j / slf4j – Logging framework.
+
+8. WebDriverManager Commands
+--------------------
+WebDriverManager.chromedriver().setup() – Setup Chrome driver.
+
+WebDriverManager.edgedriver().setup() – Setup Edge driver.
+
+WebDriverManager.firefoxdriver().setup() – Setup Firefox driver.
+
+9. Utility Classes in Framework
+--------------------
+Common utilities used in frameworks:
+
+BrowserUtility – Browser launch methods.
+
+WaitUtility – Explicit wait methods.
+
+ScreenshotUtility – Capture screenshots.
+
+ExcelUtility – Read Excel data.
+
+PropertyUtility – Read config.properties.
+
+10. Config Properties Handling
+--------------------
+Properties prop = new Properties() – Create properties object.
+
+FileInputStream – Read properties file.
+
+prop.load() – Load properties file.
+
+prop.getProperty("key") – Get property value.
+
+Example keys:
+
+browser=chrome
+url=https://www.saucedemo.com
+username=standard_user
+password=secret_sauce
+
+11. TestNG testng.xml Commands
+--------------------
+<suite> – Define test suite.
+
+<test> – Define test group.
+
+<classes> – Define test classes.
+
+<class> – Specify class name.
+
+<methods> – Specify test methods.
+
+<parameter> – Pass parameters.
+
+Example:
+
+<suite name="AutomationSuite">
+   <test name="LoginTest">
+      <classes>
+         <class name="tests.LoginTest"/>
+      </classes>
+   </test>
+</suite>
