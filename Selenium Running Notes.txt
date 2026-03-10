@@ -358,3 +358,32 @@ Numeric:55,68.33
 For Download ApachPOI Jar Files
 
 https://archive.apache.org/dist/poi/release/bin/
+--------------------------
+POM:
+Maven
+BDD Cucumber
+GIT
+
+Hybrid FrameWork:
+---------------
+Base Class:Browser Configuration
+Locators in POM:All Locaters
+Methods in POM:Oprations 
+Excel Utilities:Test Data 
+Test Class:Runner
+
+Java Project:
+------------
+
+Maven Project:
+-------------
+Create 
+
+Dependecisis:
+
+Before-4.3
+After-4.3 
+
+
+
+https://mvnrepository.com/
