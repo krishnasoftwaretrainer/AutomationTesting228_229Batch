@@ -387,3 +387,43 @@ After-4.3
 
 
 https://mvnrepository.com/
+
+----------------------------------
+
+Hybrid FrameWork:
+---------------
+Base Class:Browser Configuration
+Locators in POM:All Locaters
+Methods in POM:Oprations 
+Excel Utilities:Test Data 
+Test Class:Runner
+
+DataDriven+TestNG+POM=Hybrid
+
+Java Project:
+------------
+
+Maven Project:
+-------------
+Create 
+
+Dependecisis:
+
+Before-4.3
+After-4.3 
+
+FrameWorks:SoftCode:
+
+POM Model FrameWork:
+--------
+By 
+@FindBy
+
+Parallel Testing
+AutoIt:
+Waits:
+CSS Selector
+
+
+BDD Cucumber:FeatureFiles,StepDefinations,RunnerFile
+GIT and GITHUB and Jenkins
