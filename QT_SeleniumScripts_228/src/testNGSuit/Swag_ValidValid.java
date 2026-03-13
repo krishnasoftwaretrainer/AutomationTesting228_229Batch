@@ -42,6 +42,7 @@ public class Swag_ValidValid {
 		System.out.println("Test Case is Excuted"); //Print 
 		softAssert.assertAll(); //Report
 		
+		
 	}
 	@AfterMethod
 	public void BrowserTearDown()

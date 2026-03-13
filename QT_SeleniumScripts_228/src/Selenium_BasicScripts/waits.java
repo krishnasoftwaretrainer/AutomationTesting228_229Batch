@@ -12,37 +12,25 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class waits {
 
-	
-		    public static void main(String[] args) {
+	public static void main(String[] args) {
 
-		        WebDriver driver = new ChromeDriver();
-		        driver.manage().window().setSize(new Dimension(800, 600));
-
-		        driver.get("https://www.hyrtutorials.com/p/waits-demo.html");
-
-		        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
-
-		        // ✅ Switch to iframe using WebElement
-		        WebElement frame = wait.until(
-		                ExpectedConditions.presenceOfElementLocated(By.tagName("iframe"))
-		        );
-		        driver.switchTo().frame(frame);
-
-		        // Click Add Textbox1
-		        driver.findElement(By.id("btn1")).click();
-
-		        // Wait and enter text
-		        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("textbox1")))
-		            .sendKeys("Krishna");
-
-		        // Click Add Textbox2
-		        driver.findElement(By.id("btn2")).click();
-
-		        // Wait and enter text
-		        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("textbox2")))
-		            .sendKeys("Hyderabad");		
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().setSize(new Dimension(800, 600));
+		//Implicit Wait
+		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		//Explicit Wait
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		driver.get("https://www.saucedemo.com/");
+		//driver.findElement(By.id("user-name")).sendKeys("standard_user");
+		 WebElement username = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("user-name")));
+		 username.sendKeys("standard_user");
+		WebElement password = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("password")));
+		 password.sendKeys("secret_sauce");
+		 WebElement loginButton = wait.until(ExpectedConditions.elementToBeClickable(By.id("login-button")));
+		 loginButton.click();
+		 //driver.findElement(By.id("password")).sendKeys("secret_sauce");
+		//driver.findElement(By.id("login-button")).click();
 		
+
 	}
 }
-
-

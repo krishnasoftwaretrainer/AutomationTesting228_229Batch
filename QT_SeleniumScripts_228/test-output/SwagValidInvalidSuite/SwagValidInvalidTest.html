@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Mar 03 12:23:23 IST 2026</td>
+<td>Started on:</td><td>Wed Mar 11 17:41:46 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>9 seconds (9288 ms)</td>
+<tr><td>Total time:</td><td>14 seconds (14545 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -81,8 +81,12 @@ function toggleAllBoxes() {
 	Error message does not match the expected message. expected [Epic sadface: Username and password do not match any user in this service] but found [Epic sadface: Username and password do not match any user in this serv]
 	at testNGSuit.Swag_InValidInValid.Swag_InValidInValidLogin(Swag_InValidInValid.java:40)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace421191743", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace421191743'><pre>java.lang.AssertionError: The following asserts failed:
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace566736562", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace566736562'><pre>java.lang.AssertionError: The following asserts failed:
 	Error message does not match the expected message. expected [Epic sadface: Username and password do not match any user in this service] but found [Epic sadface: Username and password do not match any user in this serv]
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
@@ -101,21 +105,15 @@ function toggleAllBoxes() {
 	at org.testng.TestRunner.privateRun(TestRunner.java:741)
 	at org.testng.TestRunner.run(TestRunner.java:616)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
 </pre></div></td>
 <td>0</td>
-<td>testNGSuit.Swag_InValidInValid@27ce24aa</td></tr>
+<td>testNGSuit.Swag_InValidInValid@a514af7</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -126,20 +124,20 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='testNGSuit.Swag_InValidValid.Swag_InValidValidLogin()'><b>Swag_InValidValidLogin</b><br>Test class: testNGSuit.Swag_InValidValid</td>
+<td></td>
+<td>0</td>
+<td>testNGSuit.Swag_InValidValid@4466af20</td></tr>
+<tr>
 <td title='testNGSuit.Swag_ValidValid.Swag_ValidValidLogin()'><b>Swag_ValidValidLogin</b><br>Test class: testNGSuit.Swag_ValidValid</td>
 <td></td>
 <td>0</td>
-<td>testNGSuit.Swag_ValidValid@17046283</td></tr>
+<td>testNGSuit.Swag_ValidValid@5f058f00</td></tr>
 <tr>
 <td title='testNGSuit.Swag_ValidInValid.Swag_ValidInValidLogin()'><b>Swag_ValidInValidLogin</b><br>Test class: testNGSuit.Swag_ValidInValid</td>
 <td></td>
 <td>0</td>
-<td>testNGSuit.Swag_ValidInValid@31c88ec8</td></tr>
-<tr>
-<td title='testNGSuit.Swag_InValidValid.Swag_InValidValidLogin()'><b>Swag_InValidValidLogin</b><br>Test class: testNGSuit.Swag_InValidValid</td>
-<td></td>
-<td>0</td>
-<td>testNGSuit.Swag_InValidValid@1cbbffcd</td></tr>
+<td>testNGSuit.Swag_ValidInValid@4f6ee6e4</td></tr>
 </table><p>
 </body>
 </html>

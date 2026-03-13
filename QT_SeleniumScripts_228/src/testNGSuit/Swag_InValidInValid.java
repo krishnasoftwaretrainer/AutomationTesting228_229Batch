@@ -37,7 +37,8 @@ public class Swag_InValidInValid {
 		
 		SoftAssert softAssert = new SoftAssert();
 		softAssert.assertEquals(expectedErrorMessage, actualErrorMessage,"Error message does not match the expected message."); //Pass Fail
-		softAssert.assertAll();	
+		softAssert.assertAll();
+		
 		
 	}
 	@AfterMethod

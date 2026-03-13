@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="12" passed="2" failed="10" skipped="0">
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-11T12:47:22 IST" name="ParametersSuite" finished-at="2026-03-11T12:48:17 IST" duration-ms="54405">
+  <suite started-at="2026-03-12T12:59:45 IST" name="ParametersSuite" finished-at="2026-03-12T13:00:43 IST" duration-ms="57208">
     <groups>
     </groups>
-    <test started-at="2026-03-11T12:47:22 IST" name="ChromeTest" finished-at="2026-03-11T12:47:30 IST" duration-ms="7736">
+    <test started-at="2026-03-12T12:59:45 IST" name="EdgeTest" finished-at="2026-03-12T13:00:06 IST" duration-ms="20832">
       <class name="testNG.Swag_Parameters">
-        <test-method is-config="true" signature="BrowserSetup(java.lang.String,java.lang.String)[pri:0, instance:testNG.Swag_Parameters@123ef382]" started-at="2026-03-11T12:47:22 IST" name="BrowserSetup" finished-at="2026-03-11T12:47:27 IST" duration-ms="4516" status="PASS">
+        <test-method is-config="true" signature="BrowserSetup(java.lang.String,java.lang.String)[pri:0, instance:testNG.Swag_Parameters@f6efaab]" started-at="2026-03-12T12:59:45 IST" name="BrowserSetup" finished-at="2026-03-12T12:59:48 IST" duration-ms="2452" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[edge]]>
               </value>
             </param>
             <param index="1">
@@ -23,193 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserSetup -->
-        <test-method is-config="true" signature="BrowserSetup(java.lang.String,java.lang.String)[pri:0, instance:testNG.Swag_Parameters@123ef382]" started-at="2026-03-11T12:47:22 IST" name="BrowserSetup" finished-at="2026-03-11T12:47:27 IST" duration-ms="4608" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://www.saucedemo.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BrowserSetup -->
-        <test-method is-config="true" signature="BrowserSetup(java.lang.String,java.lang.String)[pri:0, instance:testNG.Swag_Parameters@123ef382]" started-at="2026-03-11T12:47:22 IST" name="BrowserSetup" finished-at="2026-03-11T12:47:27 IST" duration-ms="4706" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://www.saucedemo.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BrowserSetup -->
-        <test-method is-config="true" signature="BrowserSetup(java.lang.String,java.lang.String)[pri:0, instance:testNG.Swag_Parameters@123ef382]" started-at="2026-03-11T12:47:22 IST" name="BrowserSetup" finished-at="2026-03-11T12:47:27 IST" duration-ms="4895" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://www.saucedemo.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BrowserSetup -->
-        <test-method signature="ValidInvalidLogin(java.lang.String,java.lang.String)[pri:3, instance:testNG.Swag_Parameters@123ef382]" started-at="2026-03-11T12:47:27 IST" name="ValidInvalidLogin" finished-at="2026-03-11T12:47:29 IST" duration-ms="2665" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[standard_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[xcgxcdgx]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-at testNG.Swag_Parameters.ValidInvalidLogin(Swag_Parameters.java:66)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-at java.base/java.lang.Thread.run(Thread.java:1474)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidInvalidLogin -->
-        <test-method signature="InValidvalidLogin(java.lang.String,java.lang.String)[pri:4, instance:testNG.Swag_Parameters@123ef382]" started-at="2026-03-11T12:47:27 IST" name="InValidvalidLogin" finished-at="2026-03-11T12:47:30 IST" duration-ms="2619" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[invalidusername]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-at testNG.Swag_Parameters.InValidvalidLogin(Swag_Parameters.java:87)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-at java.base/java.lang.Thread.run(Thread.java:1474)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- InValidvalidLogin -->
-        <test-method signature="InvalidLogin(java.lang.String,java.lang.String)[pri:2, instance:testNG.Swag_Parameters@123ef382]" started-at="2026-03-11T12:47:27 IST" name="InvalidLogin" finished-at="2026-03-11T12:47:30 IST" duration-ms="2543" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[invalidusername]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[xcgxcdgx]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-at testNG.Swag_Parameters.InvalidLogin(Swag_Parameters.java:46)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-at java.base/java.lang.Thread.run(Thread.java:1474)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- InvalidLogin -->
-        <test-method signature="ValidValidLogin(java.lang.String,java.lang.String)[pri:1, instance:testNG.Swag_Parameters@123ef382]" started-at="2026-03-11T12:47:27 IST" name="ValidValidLogin" finished-at="2026-03-11T12:47:29 IST" duration-ms="2276" status="FAIL">
+        <test-method signature="ValidValidLogin(java.lang.String,java.lang.String)[pri:1, instance:testNG.Swag_Parameters@f6efaab]" started-at="2026-03-12T12:59:48 IST" name="ValidValidLogin" finished-at="2026-03-12T12:59:50 IST" duration-ms="1800" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -222,247 +36,14 @@ at java.base/java.lang.Thread.run(Thread.java:1474)
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-at testNG.Swag_Parameters.ValidValidLogin(Swag_Parameters.java:27)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-at java.base/java.lang.Thread.run(Thread.java:1474)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidValidLogin -->
-        <test-method is-config="true" signature="BrowserTearDown()[pri:0, instance:testNG.Swag_Parameters@123ef382]" started-at="2026-03-11T12:47:29 IST" name="BrowserTearDown" finished-at="2026-03-11T12:47:30 IST" duration-ms="480" status="FAIL">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Timed out waiting for driver server to stop.
-Build info: version: '4.41.0', revision: '9fc754f90a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ccd3f176b4d54af8bda165985722ca5b, quit {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.160, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55081}, goog:processID: 17524, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55081/devtoo..., se:cdpVersion: 145.0.7632.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
-Build info: version: '4.41.0', revision: '9fc754f90a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ccd3f176b4d54af8bda165985722ca5b, quit {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.160, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55081}, goog:processID: 17524, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55081/devtoo..., se:cdpVersion: 145.0.7632.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:164)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:690)
-at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:505)
-at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:421)
-at testNG.BaseClass.BrowserTearDown(BaseClass.java:39)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:805)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:781)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-at java.base/java.lang.Thread.run(Thread.java:1474)
-Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@3bb25795[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@7a8f5dae[Wrapped task = org.openqa.selenium.remote.http.jdk.JdkHttpClient$$Lambda/0x000000000f218920@7eb0c627]] rejected from java.util.concurrent.ThreadPoolExecutor@4cfe0924[Shutting down, pool size = 6, active threads = 1, queued tasks = 0, completed tasks = 194]
-at java.base/java.util.concurrent.CompletableFuture.wrapInExecutionException(CompletableFuture.java:345)
-at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:440)
-at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2117)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:160)
-... 27 more
-Caused by: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@3bb25795[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@7a8f5dae[Wrapped task = org.openqa.selenium.remote.http.jdk.JdkHttpClient$$Lambda/0x000000000f218920@7eb0c627]] rejected from java.util.concurrent.ThreadPoolExecutor@4cfe0924[Shutting down, pool size = 6, active threads = 1, queued tasks = 0, completed tasks = 194]
-at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2032)
-at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:787)
-at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1328)
-at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:125)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.executeAsync(JdkHttpClient.java:386)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:415)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:220)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:126)
-at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789)
-... 3 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method is-config="true" signature="BrowserTearDown()[pri:0, instance:testNG.Swag_Parameters@f6efaab]" started-at="2026-03-12T12:59:50 IST" name="BrowserTearDown" finished-at="2026-03-12T12:59:51 IST" duration-ms="1021" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserTearDown -->
-        <test-method is-config="true" signature="BrowserTearDown()[pri:0, instance:testNG.Swag_Parameters@123ef382]" started-at="2026-03-11T12:47:29 IST" name="BrowserTearDown" finished-at="2026-03-11T12:47:30 IST" duration-ms="456" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BrowserTearDown -->
-        <test-method is-config="true" signature="BrowserTearDown()[pri:0, instance:testNG.Swag_Parameters@123ef382]" started-at="2026-03-11T12:47:30 IST" name="BrowserTearDown" finished-at="2026-03-11T12:47:30 IST" duration-ms="439" status="FAIL">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Timed out waiting for driver server to stop.
-Build info: version: '4.41.0', revision: '9fc754f90a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ccd3f176b4d54af8bda165985722ca5b, quit {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.160, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55081}, goog:processID: 17524, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55081/devtoo..., se:cdpVersion: 145.0.7632.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
-Build info: version: '4.41.0', revision: '9fc754f90a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ccd3f176b4d54af8bda165985722ca5b, quit {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.160, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55081}, goog:processID: 17524, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55081/devtoo..., se:cdpVersion: 145.0.7632.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:164)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:690)
-at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:505)
-at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:421)
-at testNG.BaseClass.BrowserTearDown(BaseClass.java:39)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:805)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:781)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-at java.base/java.lang.Thread.run(Thread.java:1474)
-Caused by: java.util.concurrent.ExecutionException: java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.os.ExternalProcess.waitFor(java.time.Duration)" because "this.service.process" is null
-at java.base/java.util.concurrent.CompletableFuture.wrapInExecutionException(CompletableFuture.java:345)
-at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:440)
-at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2117)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:160)
-... 27 more
-Caused by: java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.os.ExternalProcess.waitFor(java.time.Duration)" because "this.service.process" is null
-at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$2(DriverCommandExecutor.java:148)
-at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789)
-... 3 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BrowserTearDown -->
-        <test-method is-config="true" signature="BrowserTearDown()[pri:0, instance:testNG.Swag_Parameters@123ef382]" started-at="2026-03-11T12:47:30 IST" name="BrowserTearDown" finished-at="2026-03-11T12:47:30 IST" duration-ms="416" status="FAIL">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Timed out waiting for driver server to stop.
-Build info: version: '4.41.0', revision: '9fc754f90a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ccd3f176b4d54af8bda165985722ca5b, quit {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.160, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55081}, goog:processID: 17524, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55081/devtoo..., se:cdpVersion: 145.0.7632.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
-Build info: version: '4.41.0', revision: '9fc754f90a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ccd3f176b4d54af8bda165985722ca5b, quit {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.160, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55081}, goog:processID: 17524, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55081/devtoo..., se:cdpVersion: 145.0.7632.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:164)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:690)
-at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:505)
-at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:421)
-at testNG.BaseClass.BrowserTearDown(BaseClass.java:39)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:805)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:781)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-at java.base/java.lang.Thread.run(Thread.java:1474)
-Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@447bc8f9[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@4e83a389[Wrapped task = org.openqa.selenium.remote.http.jdk.JdkHttpClient$$Lambda/0x000000000f218920@40445429]] rejected from java.util.concurrent.ThreadPoolExecutor@4cfe0924[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 195]
-at java.base/java.util.concurrent.CompletableFuture.wrapInExecutionException(CompletableFuture.java:345)
-at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:440)
-at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2117)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:160)
-... 27 more
-Caused by: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@447bc8f9[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@4e83a389[Wrapped task = org.openqa.selenium.remote.http.jdk.JdkHttpClient$$Lambda/0x000000000f218920@40445429]] rejected from java.util.concurrent.ThreadPoolExecutor@4cfe0924[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 195]
-at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2032)
-at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:787)
-at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1328)
-at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:125)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.executeAsync(JdkHttpClient.java:386)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:415)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:220)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:126)
-at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789)
-... 3 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BrowserTearDown -->
-      </class> <!-- testNG.Swag_Parameters -->
-    </test> <!-- ChromeTest -->
-    <test started-at="2026-03-11T12:47:30 IST" name="EdgeTest" finished-at="2026-03-11T12:47:44 IST" duration-ms="13617">
-      <class name="testNG.Swag_Parameters">
-        <test-method is-config="true" signature="BrowserSetup(java.lang.String,java.lang.String)[pri:0, instance:testNG.Swag_Parameters@f6efaab]" started-at="2026-03-11T12:47:30 IST" name="BrowserSetup" finished-at="2026-03-11T12:47:37 IST" duration-ms="7102" status="PASS">
+        <test-method is-config="true" signature="BrowserSetup(java.lang.String,java.lang.String)[pri:0, instance:testNG.Swag_Parameters@f6efaab]" started-at="2026-03-12T12:59:51 IST" name="BrowserSetup" finished-at="2026-03-12T12:59:54 IST" duration-ms="3635" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -478,147 +59,7 @@ at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableF
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserSetup -->
-        <test-method is-config="true" signature="BrowserSetup(java.lang.String,java.lang.String)[pri:0, instance:testNG.Swag_Parameters@f6efaab]" started-at="2026-03-11T12:47:30 IST" name="BrowserSetup" finished-at="2026-03-11T12:47:38 IST" duration-ms="7817" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://www.saucedemo.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BrowserSetup -->
-        <test-method is-config="true" signature="BrowserSetup(java.lang.String,java.lang.String)[pri:0, instance:testNG.Swag_Parameters@f6efaab]" started-at="2026-03-11T12:47:30 IST" name="BrowserSetup" finished-at="2026-03-11T12:47:37 IST" duration-ms="6834" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://www.saucedemo.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BrowserSetup -->
-        <test-method is-config="true" signature="BrowserSetup(java.lang.String,java.lang.String)[pri:0, instance:testNG.Swag_Parameters@f6efaab]" started-at="2026-03-11T12:47:30 IST" name="BrowserSetup" finished-at="2026-03-11T12:47:38 IST" duration-ms="7745" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://www.saucedemo.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BrowserSetup -->
-        <test-method signature="InValidvalidLogin(java.lang.String,java.lang.String)[pri:4, instance:testNG.Swag_Parameters@f6efaab]" started-at="2026-03-11T12:47:37 IST" name="InValidvalidLogin" finished-at="2026-03-11T12:47:42 IST" duration-ms="5160" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[invalidusername]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-at testNG.Swag_Parameters.InValidvalidLogin(Swag_Parameters.java:87)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-at java.base/java.lang.Thread.run(Thread.java:1474)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- InValidvalidLogin -->
-        <test-method signature="ValidValidLogin(java.lang.String,java.lang.String)[pri:1, instance:testNG.Swag_Parameters@f6efaab]" started-at="2026-03-11T12:47:37 IST" name="ValidValidLogin" finished-at="2026-03-11T12:47:42 IST" duration-ms="4700" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[standard_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-at testNG.Swag_Parameters.ValidValidLogin(Swag_Parameters.java:27)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-at java.base/java.lang.Thread.run(Thread.java:1474)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidValidLogin -->
-        <test-method signature="InvalidLogin(java.lang.String,java.lang.String)[pri:2, instance:testNG.Swag_Parameters@f6efaab]" started-at="2026-03-11T12:47:38 IST" name="InvalidLogin" finished-at="2026-03-11T12:47:44 IST" duration-ms="5764" status="FAIL">
+        <test-method signature="InvalidLogin(java.lang.String,java.lang.String)[pri:2, instance:testNG.Swag_Parameters@f6efaab]" started-at="2026-03-12T12:59:54 IST" name="InvalidLogin" finished-at="2026-03-12T12:59:55 IST" duration-ms="1019" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -631,89 +72,30 @@ at java.base/java.lang.Thread.run(Thread.java:1474)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
-            <message>
-              <![CDATA[Error communicating with the remote browser. It may have died.
-Build info: version: '4.41.0', revision: '9fc754f90a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [9dcd798b433c1a27b1dbea2028400df6, getElementText [id]]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.97, fedcm:accounts: true, goog:processID: 14432, ms:edgeOptions: {debuggerAddress: localhost:63252}, msedge: {msedgedriverVersion: 145.0.3800.97 (f4c49d5241f1..., userDataDir: C:\Users\HP\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63252/devtoo..., se:cdpVersion: 145.0.3800.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: MicrosoftEdge on windows (9dcd798b433c1a27b1dbea2028400df6)] -> xpath: //h3[@data-test='error']]
-Session ID: 9dcd798b433c1a27b1dbea2028400df6]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
-Build info: version: '4.41.0', revision: '9fc754f90a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [9dcd798b433c1a27b1dbea2028400df6, getElementText [id]]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.97, fedcm:accounts: true, goog:processID: 14432, ms:edgeOptions: {debuggerAddress: localhost:63252}, msedge: {msedgedriverVersion: 145.0.3800.97 (f4c49d5241f1..., userDataDir: C:\Users\HP\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63252/devtoo..., se:cdpVersion: 145.0.3800.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: MicrosoftEdge on windows (9dcd798b433c1a27b1dbea2028400df6)] -> xpath: //h3[@data-test='error']]
-Session ID: 9dcd798b433c1a27b1dbea2028400df6
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:640)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:191)
-at testNG.Swag_Parameters.InvalidLogin(Swag_Parameters.java:43)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-at java.base/java.lang.Thread.run(Thread.java:1474)
-Caused by: java.io.UncheckedIOException: Failed to execute request (GET http://localhost:21910/session/9dcd798b433c1a27b1dbea2028400df6/element/f.3AF7C1454A5B0056679D250C82A22815.d.571277F2BC13D32E1513C7816CBBBC89.e.24/text)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:491)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:44)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$2(JdkHttpClient.java:389)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-... 3 more
-Caused by: java.io.IOException: Task jdk.internal.net.http.common.SequentialScheduler$SchedulableTask@68a6d844 rejected from java.util.concurrent.ThreadPoolExecutor@70ab364[Shutting down, pool size = 3, active threads = 3, queued tasks = 0, completed tasks = 183]
-at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:940)
-at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:463)
-... 8 more
-Caused by: java.util.concurrent.RejectedExecutionException: Task jdk.internal.net.http.common.SequentialScheduler$SchedulableTask@68a6d844 rejected from java.util.concurrent.ThreadPoolExecutor@70ab364[Shutting down, pool size = 3, active threads = 3, queued tasks = 0, completed tasks = 183]
-at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2032)
-at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:787)
-at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1328)
-at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.ensureExecutedAsync(HttpClientImpl.java:174)
-at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:166)
-at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:282)
-at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:251)
-at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.onReadError(Http1AsyncReceiver.java:518)
-at java.net.http/jdk.internal.net.http.Http1AsyncReceiver$Http1TubeSubscriber.onComplete(Http1AsyncReceiver.java:603)
-at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadSubscription.signalCompletion(SocketTube.java:652)
-at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:883)
-at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
-at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
-at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
-at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
-at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:812)
-at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:1002)
-at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
-at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1439)
-at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1384)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1384)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InvalidLogin -->
-        <test-method signature="ValidInvalidLogin(java.lang.String,java.lang.String)[pri:3, instance:testNG.Swag_Parameters@f6efaab]" started-at="2026-03-11T12:47:38 IST" name="ValidInvalidLogin" finished-at="2026-03-11T12:47:44 IST" duration-ms="5696" status="FAIL">
+        <test-method is-config="true" signature="BrowserTearDown()[pri:0, instance:testNG.Swag_Parameters@f6efaab]" started-at="2026-03-12T12:59:55 IST" name="BrowserTearDown" finished-at="2026-03-12T12:59:56 IST" duration-ms="662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserTearDown -->
+        <test-method is-config="true" signature="BrowserSetup(java.lang.String,java.lang.String)[pri:0, instance:testNG.Swag_Parameters@f6efaab]" started-at="2026-03-12T12:59:56 IST" name="BrowserSetup" finished-at="2026-03-12T12:59:59 IST" duration-ms="3430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserSetup -->
+        <test-method signature="ValidInvalidLogin(java.lang.String,java.lang.String)[pri:3, instance:testNG.Swag_Parameters@f6efaab]" started-at="2026-03-12T12:59:59 IST" name="ValidInvalidLogin" finished-at="2026-03-12T13:00:00 IST" duration-ms="871" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -726,292 +108,58 @@ at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpCl
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
-            <message>
-              <![CDATA[Error communicating with the remote browser. It may have died.
-Build info: version: '4.41.0', revision: '9fc754f90a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [9dcd798b433c1a27b1dbea2028400df6, getElementText [id]]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.97, fedcm:accounts: true, goog:processID: 14432, ms:edgeOptions: {debuggerAddress: localhost:63252}, msedge: {msedgedriverVersion: 145.0.3800.97 (f4c49d5241f1..., userDataDir: C:\Users\HP\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63252/devtoo..., se:cdpVersion: 145.0.3800.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: MicrosoftEdge on windows (9dcd798b433c1a27b1dbea2028400df6)] -> xpath: //h3[@data-test='error']]
-Session ID: 9dcd798b433c1a27b1dbea2028400df6]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
-Build info: version: '4.41.0', revision: '9fc754f90a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [9dcd798b433c1a27b1dbea2028400df6, getElementText [id]]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.97, fedcm:accounts: true, goog:processID: 14432, ms:edgeOptions: {debuggerAddress: localhost:63252}, msedge: {msedgedriverVersion: 145.0.3800.97 (f4c49d5241f1..., userDataDir: C:\Users\HP\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63252/devtoo..., se:cdpVersion: 145.0.3800.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: MicrosoftEdge on windows (9dcd798b433c1a27b1dbea2028400df6)] -> xpath: //h3[@data-test='error']]
-Session ID: 9dcd798b433c1a27b1dbea2028400df6
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:640)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:191)
-at testNG.Swag_Parameters.ValidInvalidLogin(Swag_Parameters.java:63)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-at java.base/java.lang.Thread.run(Thread.java:1474)
-Caused by: java.io.UncheckedIOException: Failed to execute request (GET http://localhost:21910/session/9dcd798b433c1a27b1dbea2028400df6/element/f.3AF7C1454A5B0056679D250C82A22815.d.571277F2BC13D32E1513C7816CBBBC89.e.24/text)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:491)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:44)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$2(JdkHttpClient.java:389)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-... 3 more
-Caused by: java.io.IOException: Task jdk.internal.net.http.common.SequentialScheduler$SchedulableTask@68a6d844 rejected from java.util.concurrent.ThreadPoolExecutor@70ab364[Shutting down, pool size = 3, active threads = 3, queued tasks = 0, completed tasks = 183]
-at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:940)
-at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:463)
-... 8 more
-Caused by: java.util.concurrent.RejectedExecutionException: Task jdk.internal.net.http.common.SequentialScheduler$SchedulableTask@68a6d844 rejected from java.util.concurrent.ThreadPoolExecutor@70ab364[Shutting down, pool size = 3, active threads = 3, queued tasks = 0, completed tasks = 183]
-at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2032)
-at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:787)
-at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1328)
-at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.ensureExecutedAsync(HttpClientImpl.java:174)
-at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:166)
-at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:282)
-at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:251)
-at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.onReadError(Http1AsyncReceiver.java:518)
-at java.net.http/jdk.internal.net.http.Http1AsyncReceiver$Http1TubeSubscriber.onComplete(Http1AsyncReceiver.java:603)
-at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadSubscription.signalCompletion(SocketTube.java:652)
-at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:883)
-at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
-at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
-at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
-at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
-at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:812)
-at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:1002)
-at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
-at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1439)
-at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1384)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1384)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidInvalidLogin -->
-        <test-method is-config="true" signature="BrowserTearDown()[pri:0, instance:testNG.Swag_Parameters@f6efaab]" started-at="2026-03-11T12:47:42 IST" name="BrowserTearDown" finished-at="2026-03-11T12:47:44 IST" duration-ms="1799" status="PASS">
+        <test-method is-config="true" signature="BrowserTearDown()[pri:0, instance:testNG.Swag_Parameters@f6efaab]" started-at="2026-03-12T13:00:00 IST" name="BrowserTearDown" finished-at="2026-03-12T13:00:01 IST" duration-ms="754" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserTearDown -->
-        <test-method is-config="true" signature="BrowserTearDown()[pri:0, instance:testNG.Swag_Parameters@f6efaab]" started-at="2026-03-11T12:47:42 IST" name="BrowserTearDown" finished-at="2026-03-11T12:47:44 IST" duration-ms="1605" status="FAIL">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Timed out waiting for driver server to stop.
-Build info: version: '4.41.0', revision: '9fc754f90a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [9dcd798b433c1a27b1dbea2028400df6, quit {}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.97, fedcm:accounts: true, goog:processID: 14432, ms:edgeOptions: {debuggerAddress: localhost:63252}, msedge: {msedgedriverVersion: 145.0.3800.97 (f4c49d5241f1..., userDataDir: C:\Users\HP\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63252/devtoo..., se:cdpVersion: 145.0.3800.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
-Build info: version: '4.41.0', revision: '9fc754f90a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [9dcd798b433c1a27b1dbea2028400df6, quit {}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.97, fedcm:accounts: true, goog:processID: 14432, ms:edgeOptions: {debuggerAddress: localhost:63252}, msedge: {msedgedriverVersion: 145.0.3800.97 (f4c49d5241f1..., userDataDir: C:\Users\HP\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63252/devtoo..., se:cdpVersion: 145.0.3800.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:164)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:690)
-at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:505)
-at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:421)
-at testNG.BaseClass.BrowserTearDown(BaseClass.java:39)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:805)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:781)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-at java.base/java.lang.Thread.run(Thread.java:1474)
-Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@18db1ad[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@b75dadd[Wrapped task = org.openqa.selenium.remote.http.jdk.JdkHttpClient$$Lambda/0x000000000f218920@5b225c3]] rejected from java.util.concurrent.ThreadPoolExecutor@70ab364[Shutting down, pool size = 5, active threads = 3, queued tasks = 0, completed tasks = 183]
-at java.base/java.util.concurrent.CompletableFuture.wrapInExecutionException(CompletableFuture.java:345)
-at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:440)
-at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2117)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:160)
-... 27 more
-Caused by: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@18db1ad[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@b75dadd[Wrapped task = org.openqa.selenium.remote.http.jdk.JdkHttpClient$$Lambda/0x000000000f218920@5b225c3]] rejected from java.util.concurrent.ThreadPoolExecutor@70ab364[Shutting down, pool size = 5, active threads = 3, queued tasks = 0, completed tasks = 183]
-at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2032)
-at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:787)
-at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1328)
-at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:125)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.executeAsync(JdkHttpClient.java:386)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:415)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:220)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:126)
-at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789)
-... 3 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method is-config="true" signature="BrowserSetup(java.lang.String,java.lang.String)[pri:0, instance:testNG.Swag_Parameters@f6efaab]" started-at="2026-03-12T13:00:01 IST" name="BrowserSetup" finished-at="2026-03-12T13:00:04 IST" duration-ms="3426" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BrowserTearDown -->
-        <test-method is-config="true" signature="BrowserTearDown()[pri:0, instance:testNG.Swag_Parameters@f6efaab]" started-at="2026-03-11T12:47:44 IST" name="BrowserTearDown" finished-at="2026-03-11T12:47:44 IST" duration-ms="9" status="FAIL">
-          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
-            <message>
-              <![CDATA[Error communicating with the remote browser. It may have died.
-Build info: version: '4.41.0', revision: '9fc754f90a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [9dcd798b433c1a27b1dbea2028400df6, quit []]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.97, fedcm:accounts: true, goog:processID: 14432, ms:edgeOptions: {debuggerAddress: localhost:63252}, msedge: {msedgedriverVersion: 145.0.3800.97 (f4c49d5241f1..., userDataDir: C:\Users\HP\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63252/devtoo..., se:cdpVersion: 145.0.3800.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9dcd798b433c1a27b1dbea2028400df6]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
-Build info: version: '4.41.0', revision: '9fc754f90a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [9dcd798b433c1a27b1dbea2028400df6, quit []]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.97, fedcm:accounts: true, goog:processID: 14432, ms:edgeOptions: {debuggerAddress: localhost:63252}, msedge: {msedgedriverVersion: 145.0.3800.97 (f4c49d5241f1..., userDataDir: C:\Users\HP\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63252/devtoo..., se:cdpVersion: 145.0.3800.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9dcd798b433c1a27b1dbea2028400df6
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:640)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:690)
-at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:505)
-at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:421)
-at testNG.BaseClass.BrowserTearDown(BaseClass.java:39)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:805)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:781)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-at java.base/java.lang.Thread.run(Thread.java:1474)
-Caused by: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.CompletableFuture$AsyncSupply@1861310b rejected from java.util.concurrent.ThreadPoolExecutor@23d335b[Shutting down, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 2]
-at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2032)
-at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:787)
-at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1328)
-at java.base/java.util.concurrent.CompletableFuture.asyncSupplyStage(CompletableFuture.java:1803)
-at java.base/java.util.concurrent.CompletableFuture.supplyAsync(CompletableFuture.java:2026)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:123)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
-... 26 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+        </test-method> <!-- BrowserSetup -->
+        <test-method signature="InValidvalidLogin(java.lang.String,java.lang.String)[pri:4, instance:testNG.Swag_Parameters@f6efaab]" started-at="2026-03-12T13:00:04 IST" name="InValidvalidLogin" finished-at="2026-03-12T13:00:05 IST" duration-ms="962" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalidusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BrowserTearDown -->
-        <test-method is-config="true" signature="BrowserTearDown()[pri:0, instance:testNG.Swag_Parameters@f6efaab]" started-at="2026-03-11T12:47:44 IST" name="BrowserTearDown" finished-at="2026-03-11T12:47:44 IST" duration-ms="7" status="FAIL">
-          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
-            <message>
-              <![CDATA[Error communicating with the remote browser. It may have died.
-Build info: version: '4.41.0', revision: '9fc754f90a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [9dcd798b433c1a27b1dbea2028400df6, quit []]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.97, fedcm:accounts: true, goog:processID: 14432, ms:edgeOptions: {debuggerAddress: localhost:63252}, msedge: {msedgedriverVersion: 145.0.3800.97 (f4c49d5241f1..., userDataDir: C:\Users\HP\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63252/devtoo..., se:cdpVersion: 145.0.3800.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9dcd798b433c1a27b1dbea2028400df6]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
-Build info: version: '4.41.0', revision: '9fc754f90a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [9dcd798b433c1a27b1dbea2028400df6, quit []]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.97, fedcm:accounts: true, goog:processID: 14432, ms:edgeOptions: {debuggerAddress: localhost:63252}, msedge: {msedgedriverVersion: 145.0.3800.97 (f4c49d5241f1..., userDataDir: C:\Users\HP\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63252/devtoo..., se:cdpVersion: 145.0.3800.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9dcd798b433c1a27b1dbea2028400df6
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:640)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:690)
-at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:505)
-at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:421)
-at testNG.BaseClass.BrowserTearDown(BaseClass.java:39)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:805)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:781)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-at java.base/java.lang.Thread.run(Thread.java:1474)
-Caused by: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.CompletableFuture$AsyncSupply@5e1c22c3 rejected from java.util.concurrent.ThreadPoolExecutor@23d335b[Shutting down, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 2]
-at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2032)
-at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:787)
-at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1328)
-at java.base/java.util.concurrent.CompletableFuture.asyncSupplyStage(CompletableFuture.java:1803)
-at java.base/java.util.concurrent.CompletableFuture.supplyAsync(CompletableFuture.java:2026)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:123)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
-... 26 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+        </test-method> <!-- InValidvalidLogin -->
+        <test-method is-config="true" signature="BrowserTearDown()[pri:0, instance:testNG.Swag_Parameters@f6efaab]" started-at="2026-03-12T13:00:05 IST" name="BrowserTearDown" finished-at="2026-03-12T13:00:06 IST" duration-ms="688" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserTearDown -->
       </class> <!-- testNG.Swag_Parameters -->
     </test> <!-- EdgeTest -->
-    <test started-at="2026-03-11T12:47:44 IST" name="FireFoxTest" finished-at="2026-03-11T12:48:17 IST" duration-ms="32764">
+    <test started-at="2026-03-12T12:59:45 IST" name="ChromeTest" finished-at="2026-03-12T13:00:06 IST" duration-ms="21005">
       <class name="testNG.Swag_Parameters">
-        <test-method is-config="true" signature="BrowserSetup(java.lang.String,java.lang.String)[pri:0, instance:testNG.Swag_Parameters@3349e9bb]" started-at="2026-03-11T12:47:44 IST" name="BrowserSetup" finished-at="2026-03-11T12:48:14 IST" duration-ms="29939" status="PASS">
+        <test-method is-config="true" signature="BrowserSetup(java.lang.String,java.lang.String)[pri:0, instance:testNG.Swag_Parameters@123ef382]" started-at="2026-03-12T12:59:45 IST" name="BrowserSetup" finished-at="2026-03-12T12:59:48 IST" duration-ms="2595" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
             <param index="1">
@@ -1023,59 +171,11 @@ at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserSetup -->
-        <test-method is-config="true" signature="BrowserSetup(java.lang.String,java.lang.String)[pri:0, instance:testNG.Swag_Parameters@3349e9bb]" started-at="2026-03-11T12:47:44 IST" name="BrowserSetup" finished-at="2026-03-11T12:48:08 IST" duration-ms="24202" status="PASS">
+        <test-method signature="ValidValidLogin(java.lang.String,java.lang.String)[pri:1, instance:testNG.Swag_Parameters@123ef382]" started-at="2026-03-12T12:59:48 IST" name="ValidValidLogin" finished-at="2026-03-12T12:59:50 IST" duration-ms="2095" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://www.saucedemo.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BrowserSetup -->
-        <test-method is-config="true" signature="BrowserSetup(java.lang.String,java.lang.String)[pri:0, instance:testNG.Swag_Parameters@3349e9bb]" started-at="2026-03-11T12:47:44 IST" name="BrowserSetup" finished-at="2026-03-11T12:48:08 IST" duration-ms="24593" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://www.saucedemo.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BrowserSetup -->
-        <test-method is-config="true" signature="BrowserSetup(java.lang.String,java.lang.String)[pri:0, instance:testNG.Swag_Parameters@3349e9bb]" started-at="2026-03-11T12:47:44 IST" name="BrowserSetup" finished-at="2026-03-11T12:47:54 IST" duration-ms="10398" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://www.saucedemo.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BrowserSetup -->
-        <test-method signature="InValidvalidLogin(java.lang.String,java.lang.String)[pri:4, instance:testNG.Swag_Parameters@3349e9bb]" started-at="2026-03-11T12:47:54 IST" name="InValidvalidLogin" finished-at="2026-03-11T12:47:55 IST" duration-ms="871" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[invalidusername]]>
+                <![CDATA[standard_user]]>
               </value>
             </param>
             <param index="1">
@@ -1086,12 +186,28 @@ at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- InValidvalidLogin -->
-        <test-method is-config="true" signature="BrowserTearDown()[pri:0, instance:testNG.Swag_Parameters@3349e9bb]" started-at="2026-03-11T12:47:55 IST" name="BrowserTearDown" finished-at="2026-03-11T12:48:02 IST" duration-ms="6660" status="PASS">
+        </test-method> <!-- ValidValidLogin -->
+        <test-method is-config="true" signature="BrowserTearDown()[pri:0, instance:testNG.Swag_Parameters@123ef382]" started-at="2026-03-12T12:59:50 IST" name="BrowserTearDown" finished-at="2026-03-12T12:59:51 IST" duration-ms="653" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserTearDown -->
-        <test-method signature="InvalidLogin(java.lang.String,java.lang.String)[pri:2, instance:testNG.Swag_Parameters@3349e9bb]" started-at="2026-03-11T12:48:08 IST" name="InvalidLogin" finished-at="2026-03-11T12:48:09 IST" duration-ms="1317" status="PASS">
+        <test-method is-config="true" signature="BrowserSetup(java.lang.String,java.lang.String)[pri:0, instance:testNG.Swag_Parameters@123ef382]" started-at="2026-03-12T12:59:51 IST" name="BrowserSetup" finished-at="2026-03-12T12:59:54 IST" duration-ms="3689" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserSetup -->
+        <test-method signature="InvalidLogin(java.lang.String,java.lang.String)[pri:2, instance:testNG.Swag_Parameters@123ef382]" started-at="2026-03-12T12:59:54 IST" name="InvalidLogin" finished-at="2026-03-12T12:59:56 IST" duration-ms="1179" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1107,126 +223,27 @@ at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InvalidLogin -->
-        <test-method signature="ValidValidLogin(java.lang.String,java.lang.String)[pri:1, instance:testNG.Swag_Parameters@3349e9bb]" started-at="2026-03-11T12:48:08 IST" name="ValidValidLogin" finished-at="2026-03-11T12:48:09 IST" duration-ms="991" status="FAIL">
+        <test-method is-config="true" signature="BrowserTearDown()[pri:0, instance:testNG.Swag_Parameters@123ef382]" started-at="2026-03-12T12:59:56 IST" name="BrowserTearDown" finished-at="2026-03-12T12:59:56 IST" duration-ms="410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserTearDown -->
+        <test-method is-config="true" signature="BrowserSetup(java.lang.String,java.lang.String)[pri:0, instance:testNG.Swag_Parameters@123ef382]" started-at="2026-03-12T12:59:56 IST" name="BrowserSetup" finished-at="2026-03-12T13:00:00 IST" duration-ms="3525" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[standard_user]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[secret_sauce]]>
+                <![CDATA[https://www.saucedemo.com/]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-at testNG.Swag_Parameters.ValidValidLogin(Swag_Parameters.java:27)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-at java.base/java.lang.Thread.run(Thread.java:1474)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ValidValidLogin -->
-        <test-method is-config="true" signature="BrowserTearDown()[pri:0, instance:testNG.Swag_Parameters@3349e9bb]" started-at="2026-03-11T12:48:09 IST" name="BrowserTearDown" finished-at="2026-03-11T12:48:15 IST" duration-ms="5693" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BrowserTearDown -->
-        <test-method is-config="true" signature="BrowserTearDown()[pri:0, instance:testNG.Swag_Parameters@3349e9bb]" started-at="2026-03-11T12:48:10 IST" name="BrowserTearDown" finished-at="2026-03-11T12:48:15 IST" duration-ms="5513" status="FAIL">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Timed out waiting for driver server to stop.
-Build info: version: '4.41.0', revision: '9fc754f90a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [5a38622b-03c8-485f-8d30-e5e31817fadc, quit {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 148.0.2, moz:accessibilityChecks: false, moz:buildID: 20260309125808, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 20628, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
-Build info: version: '4.41.0', revision: '9fc754f90a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [5a38622b-03c8-485f-8d30-e5e31817fadc, quit {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 148.0.2, moz:accessibilityChecks: false, moz:buildID: 20260309125808, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 20628, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:164)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:690)
-at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:505)
-at org.openqa.selenium.firefox.FirefoxDriver.quit(FirefoxDriver.java:278)
-at testNG.BaseClass.BrowserTearDown(BaseClass.java:39)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:805)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:781)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-at java.base/java.lang.Thread.run(Thread.java:1474)
-Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@65d8296d[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@6f20421d[Wrapped task = org.openqa.selenium.remote.http.jdk.JdkHttpClient$$Lambda/0x000000000f218920@61e7a189]] rejected from java.util.concurrent.ThreadPoolExecutor@34edba8[Shutting down, pool size = 2, active threads = 1, queued tasks = 0, completed tasks = 97]
-at java.base/java.util.concurrent.CompletableFuture.wrapInExecutionException(CompletableFuture.java:345)
-at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:440)
-at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2117)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:160)
-... 27 more
-Caused by: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@65d8296d[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@6f20421d[Wrapped task = org.openqa.selenium.remote.http.jdk.JdkHttpClient$$Lambda/0x000000000f218920@61e7a189]] rejected from java.util.concurrent.ThreadPoolExecutor@34edba8[Shutting down, pool size = 2, active threads = 1, queued tasks = 0, completed tasks = 97]
-at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2032)
-at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:787)
-at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1328)
-at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:125)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.executeAsync(JdkHttpClient.java:386)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:415)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:220)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:126)
-at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789)
-... 3 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BrowserTearDown -->
-        <test-method signature="ValidInvalidLogin(java.lang.String,java.lang.String)[pri:3, instance:testNG.Swag_Parameters@3349e9bb]" started-at="2026-03-11T12:48:14 IST" name="ValidInvalidLogin" finished-at="2026-03-11T12:48:14 IST" duration-ms="569" status="FAIL">
+        </test-method> <!-- BrowserSetup -->
+        <test-method signature="ValidInvalidLogin(java.lang.String,java.lang.String)[pri:3, instance:testNG.Swag_Parameters@123ef382]" started-at="2026-03-12T13:00:00 IST" name="ValidInvalidLogin" finished-at="2026-03-12T13:00:01 IST" duration-ms="1046" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1239,40 +256,194 @@ at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableF
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-at testNG.Swag_Parameters.ValidInvalidLogin(Swag_Parameters.java:66)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-at java.base/java.lang.Thread.run(Thread.java:1474)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidInvalidLogin -->
-        <test-method is-config="true" signature="BrowserTearDown()[pri:0, instance:testNG.Swag_Parameters@3349e9bb]" started-at="2026-03-11T12:48:14 IST" name="BrowserTearDown" finished-at="2026-03-11T12:48:17 IST" duration-ms="2247" status="PASS">
+        <test-method is-config="true" signature="BrowserTearDown()[pri:0, instance:testNG.Swag_Parameters@123ef382]" started-at="2026-03-12T13:00:01 IST" name="BrowserTearDown" finished-at="2026-03-12T13:00:01 IST" duration-ms="581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserTearDown -->
+        <test-method is-config="true" signature="BrowserSetup(java.lang.String,java.lang.String)[pri:0, instance:testNG.Swag_Parameters@123ef382]" started-at="2026-03-12T13:00:01 IST" name="BrowserSetup" finished-at="2026-03-12T13:00:05 IST" duration-ms="3595" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserSetup -->
+        <test-method signature="InValidvalidLogin(java.lang.String,java.lang.String)[pri:4, instance:testNG.Swag_Parameters@123ef382]" started-at="2026-03-12T13:00:05 IST" name="InValidvalidLogin" finished-at="2026-03-12T13:00:06 IST" duration-ms="1066" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalidusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InValidvalidLogin -->
+        <test-method is-config="true" signature="BrowserTearDown()[pri:0, instance:testNG.Swag_Parameters@123ef382]" started-at="2026-03-12T13:00:06 IST" name="BrowserTearDown" finished-at="2026-03-12T13:00:06 IST" duration-ms="495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserTearDown -->
+      </class> <!-- testNG.Swag_Parameters -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2026-03-12T13:00:06 IST" name="FireFoxTest" finished-at="2026-03-12T13:00:43 IST" duration-ms="36258">
+      <class name="testNG.Swag_Parameters">
+        <test-method is-config="true" signature="BrowserSetup(java.lang.String,java.lang.String)[pri:0, instance:testNG.Swag_Parameters@3349e9bb]" started-at="2026-03-12T13:00:06 IST" name="BrowserSetup" finished-at="2026-03-12T13:00:13 IST" duration-ms="6430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserSetup -->
+        <test-method signature="ValidValidLogin(java.lang.String,java.lang.String)[pri:1, instance:testNG.Swag_Parameters@3349e9bb]" started-at="2026-03-12T13:00:13 IST" name="ValidValidLogin" finished-at="2026-03-12T13:00:13 IST" duration-ms="645" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidValidLogin -->
+        <test-method is-config="true" signature="BrowserTearDown()[pri:0, instance:testNG.Swag_Parameters@3349e9bb]" started-at="2026-03-12T13:00:13 IST" name="BrowserTearDown" finished-at="2026-03-12T13:00:15 IST" duration-ms="2014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserTearDown -->
+        <test-method is-config="true" signature="BrowserSetup(java.lang.String,java.lang.String)[pri:0, instance:testNG.Swag_Parameters@3349e9bb]" started-at="2026-03-12T13:00:15 IST" name="BrowserSetup" finished-at="2026-03-12T13:00:22 IST" duration-ms="6445" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserSetup -->
+        <test-method signature="InvalidLogin(java.lang.String,java.lang.String)[pri:2, instance:testNG.Swag_Parameters@3349e9bb]" started-at="2026-03-12T13:00:22 IST" name="InvalidLogin" finished-at="2026-03-12T13:00:22 IST" duration-ms="618" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalidusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xcgxcdgx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin -->
+        <test-method is-config="true" signature="BrowserTearDown()[pri:0, instance:testNG.Swag_Parameters@3349e9bb]" started-at="2026-03-12T13:00:22 IST" name="BrowserTearDown" finished-at="2026-03-12T13:00:25 IST" duration-ms="2181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserTearDown -->
+        <test-method is-config="true" signature="BrowserSetup(java.lang.String,java.lang.String)[pri:0, instance:testNG.Swag_Parameters@3349e9bb]" started-at="2026-03-12T13:00:25 IST" name="BrowserSetup" finished-at="2026-03-12T13:00:31 IST" duration-ms="6262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserSetup -->
+        <test-method signature="ValidInvalidLogin(java.lang.String,java.lang.String)[pri:3, instance:testNG.Swag_Parameters@3349e9bb]" started-at="2026-03-12T13:00:31 IST" name="ValidInvalidLogin" finished-at="2026-03-12T13:00:31 IST" duration-ms="474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xcgxcdgx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidInvalidLogin -->
+        <test-method is-config="true" signature="BrowserTearDown()[pri:0, instance:testNG.Swag_Parameters@3349e9bb]" started-at="2026-03-12T13:00:31 IST" name="BrowserTearDown" finished-at="2026-03-12T13:00:33 IST" duration-ms="1943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserTearDown -->
+        <test-method is-config="true" signature="BrowserSetup(java.lang.String,java.lang.String)[pri:0, instance:testNG.Swag_Parameters@3349e9bb]" started-at="2026-03-12T13:00:33 IST" name="BrowserSetup" finished-at="2026-03-12T13:00:40 IST" duration-ms="6209" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserSetup -->
+        <test-method signature="InValidvalidLogin(java.lang.String,java.lang.String)[pri:4, instance:testNG.Swag_Parameters@3349e9bb]" started-at="2026-03-12T13:00:40 IST" name="InValidvalidLogin" finished-at="2026-03-12T13:00:40 IST" duration-ms="627" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalidusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InValidvalidLogin -->
+        <test-method is-config="true" signature="BrowserTearDown()[pri:0, instance:testNG.Swag_Parameters@3349e9bb]" started-at="2026-03-12T13:00:40 IST" name="BrowserTearDown" finished-at="2026-03-12T13:00:43 IST" duration-ms="2315" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserTearDown -->
