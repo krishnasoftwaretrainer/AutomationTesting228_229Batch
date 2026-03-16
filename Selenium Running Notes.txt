@@ -430,3 +430,19 @@ GIT and GITHUB and Jenkins
 ===================
 ControlClick("Open","","Button1");
 
+==========================
+BDD Cucumber FrameWork:
+----------------------
+Gerkhin Language:English
+FeatureFiles:Given-When-And-Then
+
+public void User_On_LoginPage()
+{
+Body;
+driver.get("");
+}
+New Project
+Maven Project
+FeatureFiles:Gerkhin
+stepDefinations:Selenium Script
+RunnerFile:
