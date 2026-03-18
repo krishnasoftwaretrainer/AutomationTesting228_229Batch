@@ -1,0 +1,147 @@
+
+HP@DESKTOP-DCUKDOL MINGW64 ~
+$ cd "D:\QT\Batch228"
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/Batch228
+$ ls -a
+./  ../  File1.html
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/Batch228
+$ git init
+Initialized empty Git repository in D:/QT/Batch228/.git/
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/Batch228 (master)
+$ ls -a
+./  ../  .git/  File1.html
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/Batch228 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        File1.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/Batch228 (master)
+$ git add .
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/Batch228 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   File1.html
+
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/Batch228 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   File1.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Sample.txt
+
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/Batch228 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   File1.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Sample.txt
+        sffdadfnjdsa.txt
+
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/Batch228 (master)
+$ git add "Sample.txt"
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/Batch228 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   File1.html
+        new file:   Sample.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        sffdadfnjdsa.txt
+
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/Batch228 (master)
+$ git add .
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/Batch228 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   File1.html
+        new file:   Sample.txt
+        new file:   sffdadfnjdsa.txt
+
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/Batch228 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   File1.html
+        new file:   Sample.txt
+        new file:   sffdadfnjdsa.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Sample.txt
+
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/Batch228 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   File1.html
+        new file:   Sample.txt
+        new file:   sffdadfnjdsa.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Sample.txt
+        modified:   sffdadfnjdsa.txt
+
+
+HP@DESKTOP-DCUKDOL MINGW64 /d/QT/Batch228 (master)
+$
