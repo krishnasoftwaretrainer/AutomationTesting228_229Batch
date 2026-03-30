@@ -24,6 +24,11 @@ public class TestNg_Groups
 	{
 		System.out.println("AddToCartTest | "+Thread.currentThread().threadId());
 	}
+	@Test(groups = {"Sanity"})
+	public void CheckoutTest()
+	{
+		System.out.println("PaymentTest | "+Thread.currentThread().threadId());
+	}
 	@Test(groups = {"Sanity","Regression"})
 	public void PaymentTest()
 	{

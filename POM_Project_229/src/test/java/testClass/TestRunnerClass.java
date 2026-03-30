@@ -1,5 +1,6 @@
 package testClass;
 
+import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -22,9 +23,23 @@ public class TestRunnerClass extends BaseClass {
 
 		//Swag_Locters_Methods_BY lp = new Swag_Locters_Methods_BY(driver);
 		//lp.SwagLogin(userName, password);
+		
 		Swag_Locters_Methods_FindBy lp = new Swag_Locters_Methods_FindBy(driver);
 		lp.login(userName, password);
 		
+		String currentURL = driver.getCurrentUrl();
+
+		if (currentURL.contains("inventory")) {
+
+			Assert.assertTrue(true, "Login successful");
+
+		} else {
+
+			Assert.assertTrue(lp.isErrorDisplayed(),
+					"Error message should appear for invalid login");
+		}
+	}
+		
 	}
 
-}
+

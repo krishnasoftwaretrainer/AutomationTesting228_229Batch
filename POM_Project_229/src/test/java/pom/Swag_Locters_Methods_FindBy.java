@@ -25,6 +25,9 @@ public class Swag_Locters_Methods_FindBy {
 	@FindBy(id = "login-button")
 	WebElement loginButton;
 
+	@FindBy(xpath = "//h3[@data-test='error']")
+	WebElement errorMsg;
+
 	// Method
 
 	public void login(String user, String pass) {
@@ -34,6 +37,11 @@ public class Swag_Locters_Methods_FindBy {
 		username.sendKeys(user);
 		password.sendKeys(pass);
 		loginButton.click();
+	}
+	
+	public boolean isErrorDisplayed() {
+
+		return errorMsg.isDisplayed();
 	}
 
 }

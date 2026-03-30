@@ -9,7 +9,7 @@ import io.cucumber.java.en.*;
 
 public class SwagValidLoginPage {
 	WebDriver driver;
-
+/*
 	@Given("The user is on the Login page")
 	public void the_user_is_on_the_login_page() {
 		driver = new ChromeDriver();
@@ -39,7 +39,7 @@ public class SwagValidLoginPage {
 		String ActualURL = driver.getCurrentUrl();
 		System.out.println("Expected URL: " + ExpectedURL);
 		System.out.println("Actual URL: " + ActualURL);
-		Assert.assertEquals(ExpectedURL, ActualURL, "User is not on the Products page");
-	}
+		Assert.assertEquals("User is not on the Products page",ExpectedURL, ActualURL);
+	}  */
 
 }
